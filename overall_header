@@ -1071,7 +1071,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         margin: -2px 0 0 -11px;
     }
     .navcal {
-        margin: 0 15px 0 68px;
+        margin: 0 15px 0 80px;
         font-size: clamp(9px, 10vh, 1.5em);
     }
     .avac {
@@ -1103,10 +1103,9 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 .botinab, .calything .dropdown {
     display: none;
 }
-
     .calnots {
         border-right: none;
-        font-size: clamp(0.5em, 12rem, 1em);
+        font-size: clamp(0.5em, 12rem, 1.5em);
         margin: 0;
     }
     .calnots button {
@@ -1115,6 +1114,11 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 
 .calnots button:nth-last-child(-n + 2) {
   display: none; 
+}
+  
+  .calsecond a::before {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
  }
