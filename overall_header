@@ -989,25 +989,24 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     height: 100vh; 
 }
     .portada #visual {
-        width: clamp(132px, 225vw, 984vh);
+        width: clamp(132px, 408vw, 978vh);
         height: 100%;
-        margin: 0 0 0 -45vh;
+        margin: 0px 0 0 -59vh;
     }
     .oscuro .perspor {
-        height: 1130px;
+        height: 1235px;
     }
     .oscuro .mono1 {
         top: 74vh;
-        left: 2vh;
-        width: 30vh;
-        height: 22vh;
+        left: 0vh;
+        width: 17vh;
+        height: 17vh;
     }
-
     .oscuro .mono2 {
-        top: 68vh;
-        left: 45vh;
-        width: 20vh;
-        height: 20vh;
+        top: 67vh;
+        left: 24vh;
+        width: 13vh;
+        height: 13vh;
     }
     .oscuro .mono3 {
         width: 9vh;
@@ -1016,16 +1015,16 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         left: 6vh;
     }
     .oscuro .mono4 {
-        top: 43vh;
-        left: 54vh;
-        width: 11vh;
-        height: 11vh;
+        top: 45vh;
+        left: 30vh;
+        width: 7vh;
+        height: 7vh;
     }
     .oscuro .mono5 {
-        top: 47vh;
-        left: 13vh;
-        width: 10vh;
-        height: 10vh;
+        top: 45vh;
+        left: 7vh;
+        width: 8vh;
+        height: 8vh;
     }
 
         .oscuro .mono6 {
@@ -1071,11 +1070,10 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         height: 109px;
         margin: -2px 0 0 -11px;
     }
-
-.navcal {
-    margin: 0 15px 0 68px;
-    font-size: clamp(9px, 10vh, 10px);
-}
+    .navcal {
+        margin: 0 15px 0 68px;
+        font-size: clamp(9px, 10vh, 1em);
+    }
 
 .navcal {
     margin: 0 15px 0 68px;
@@ -1097,6 +1095,12 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         top: 35px;
         left: 49px;
     }
+  
+      .avac img {
+        width: 47px;
+        height: 47px;
+        margin: -10px 0 0 -5px;
+    }
 
 
 .calything {
@@ -1107,15 +1111,14 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     display: none;
 }
 
-.calnots {
-    border-right: none;
-    font-size: clamp(0.5em, 12rem, 13px);
-    margin: 0;
-}
-
-.calnots button {
-    margin: 0 10px 0 0px;
-}
+    .calnots {
+        border-right: none;
+        font-size: clamp(0.5em, 12rem, 1em);
+        margin: 0;
+    }
+    .calnots button {
+        margin: 0px 10px;
+    }
 
 .calnots button:nth-last-child(-n + 2) {
   display: none; 
