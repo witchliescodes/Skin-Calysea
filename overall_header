@@ -10,7 +10,7 @@
 <script src="https://unpkg.com/akar-icons-fonts"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
 <script src="https://kit.fontawesome.com/a96fcf6740.js" crossorigin="anonymous"></script>  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
     <script>
         function selectCode(e) {
                 var doc = document
@@ -819,11 +819,11 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 .calnots button {
     margin: 0 10px 0 0px;
 }
-
+  
     .calsecond a::before {
-    width: 0.7rem;
-    height: 0.7rem;
-}
+        width: 0.6rem;
+        height: 0.6rem;
+    }
   
 .calnots button:nth-last-child(-n + 2) {
   display: none; 
@@ -831,16 +831,16 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 
 }
 
-@media (min-width: 575.98px) { 
+@media (min-width: 576px) { 
 .parallax {
     height: 100vh; 
 }
 
-.portada #visual {
-    width: clamp(172px, 221vw, 994vh);
-    height: 100%;
-    margin: 0 0 0 -42vh;
-}
+    .portada #visual {
+        width: clamp(172px, 240vw, 994vh);
+        height: 100%;
+        margin: 0 0 0 -45vh;
+    }
 
         .oscuro .perspor {
     height: 755px;
@@ -852,10 +852,9 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         width: 26vh;
         height: 19vh;
     }
-
-.oscuro .mono2 {
+    .oscuro .mono2 {
         top: 70vh;
-        left: 47vh;
+        left: 41vh;
         width: 168px;
         height: 138px;
     }
@@ -873,10 +872,9 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     top: 34vh;
     left: 6vh;
 }    
-
     .oscuro .mono4 {
-        top: 41vh;
-        left: 52vh;
+        top: 40vh;
+        left: 47vh;
         width: 10vh;
         height: 10vh;
     }
