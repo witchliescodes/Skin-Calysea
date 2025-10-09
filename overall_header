@@ -775,8 +775,8 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 }
 
 .navcal {
-    margin: 0 15px 0 68px;
-    font-size: clamp(9px, 10vh, 10px);
+    margin: 0 15px 0 80px;
+    font-size: clamp(9px, 10vh, 1.5em);
 }
 
 .avac {
@@ -1072,17 +1072,11 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     }
     .navcal {
         margin: 0 15px 0 68px;
-        font-size: clamp(9px, 10vh, 1em);
+        font-size: clamp(9px, 10vh, 1.5em);
     }
-
-.navcal {
-    margin: 0 15px 0 68px;
-    font-size: clamp(9px, 10vh, 14px);
-}
-
     .avac {
-        width: 60px;
-        height: 60px;
+        width: 75px;
+        height: 75px;
         margin: 30px 0px 0px 10px;
     }
 
@@ -1095,11 +1089,10 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         top: 35px;
         left: 49px;
     }
-  
-      .avac img {
-        width: 47px;
-        height: 47px;
-        margin: -10px 0 0 -5px;
+    .avac img {
+        width: 60px;
+        height: 60px;
+        margin: -3px 0 0 -5px;
     }
 
 
