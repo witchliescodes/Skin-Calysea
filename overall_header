@@ -894,40 +894,34 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 }
     .potit p {
         width: calc(100% - 15%);
-        font-size: 1.5em;
-    }  
+        font-size: 1em;
+    }
 .potit h1 {
     font-size: 9em; 
 }
-
-.introcal::before {
-    top: 29px;
-    left: 95px;
-}
-
-.introcal::after {
-    top: 135px;
-    left: 95px;
-}
-
-.potit p::after {
-    top: 18px;
-    left: 532px;
-}
-
-.potit p::before {
-    top: 130px;
-    left: 532px;
-}
-
+    .introcal::before {
+        top: 29px;
+        left: 93px;
+    }
+    .introcal::after {
+        top: 135px;
+        left: 94px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 514px;
+    }
+    .potit p::before {
+        top: 130px;
+        left: 514px;
+    }
     .imaintr::after {
         top: 18px;
-        left: 95px;
+        left: 94px;
     }
-
-.imaintr::before {
+    .imaintr::before {
         top: 145px;
-        left: 95px;
+        left: 94px;
     }
 
 .imaintr {
