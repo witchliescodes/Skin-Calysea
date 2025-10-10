@@ -429,13 +429,8 @@
             <img class="imima" />
         </div>
         <p>Hace cincuenta decadas,
-<dfn>una bruja y una ninfa</dfn> dieron vida a un
-<dfn>lugar olvidado.</dfn>
-Hoy, Calysea es un
-<dfn>refugio</dfn> donde la
-<dfn>magia</dfn> y los
-<dfn>secretos</dfn> conviven entre
-<dfn>mar y bosque.</dfn>
+<dfn>una bruja y una ninfa</dfn> dieron vida a un <dfn>lugar olvidado.</dfn>
+Hoy, Calysea es un <dfn>refugio</dfn> donde la <dfn>magia</dfn> y los <dfn>secretos</dfn> conviven entre <dfn>mar y bosque.</dfn>
 </p>
     </div>
 </div>
@@ -608,12 +603,12 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 .claro .mono6 { width: 21vh; height: 20vh; top: 10vh; left: 9vh; }
 .potit p {width: calc(100% - 24%);font-size: 2em;}
 .potit h1 {font-size: 12em;}
-.introcal::before {top: 98px;left: 182px;}
-.introcal::after {top: 228px;left: 184px;}
-.potit p::after { top: 18px; left: 552px; }
-.potit p::before { top: 293px; left: 550px; }
-.imaintr::after {top: 18px;left: 182px;}
-.imaintr::before {top: 308px;left: 183px;}
+.introcal::before { top: 99px; left: 166px; }
+.introcal::after { top: 228px; left: 167px; }
+.potit p::after { top: 18px; left: 761px; }
+.potit p::before { top: 294px; left: 761px; }
+.imaintr::after { top: 18px; left: 167px; }
+.imaintr::before { top: 308px; left: 168px; }
 .imaintr {width: 100px;height: 100px;}
 .imima {width: 120px;height: 120px;margin: 0px 0 0 -18px;}
 .navcal {margin: 0 15px 0 80px;font-size: clamp(9px, 10vh, 1.5em);}
