@@ -125,3 +125,1065 @@
 </script>
 </body>
 </html>
+<style>
+/*BREAKPOINTS*/
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: 0 !important;padding-left: 0 !important;margin-right: 0 !important;margin-left: 0 !important;}
+
+@media (max-width: 374px) {
+.portada #visual {width: clamp(240px, 400vw, 983vh);height: 100%;margin: 0px 0 0 -57vh;}
+.oscuro .perspor, .claro .perspor{height: 560px; margin: 0px 0 248px 0;}
+.oscuro .mono1 {top: 81vh;left: 3vh;width: 18vh;height: 18vh;}
+.claro .mono1 { top: 75vh; left: 0vh; width: 24vh; height: 24vh; }
+.oscuro .mono2 {top: 65vh;left: 24vh;width: 11vh;height: 11vh;}
+.claro .mono2 { top: 61vh; left: 22vh; width: 14vh; height: 14vh; }
+.oscuro .mono3 {width: 7vh;height: 7vh;top: 35vh;left: 3vh;}
+.claro .mono3 { width: 7vh; height: 7vh; top: 36vh; left: 4vh; }
+.oscuro .mono4 {top: 42vh;left: 30vh;width: 6vh;height: 6vh;}
+.claro .mono4 { top: 42vh; left: 28vh; width: 6vh; height: 6vh; }
+.oscuro .mono5 {top: 44vh;left: 8vh;width: 6vh;height: 6vh;}
+.claro .mono5 { top: 42vh; left: 8vh; width: 8vh; height: 8vh; }
+.oscuro .mono6 {width: 11vh;height: 11vh;top: 10vh;left: 2vh;}
+.claro .mono6 {width: 11vh;height: 11vh;top: 10vh;left: 2vh;}  
+.potit p {width: calc(100% - 24%);font-size: 2em;}
+.potit h1 {font-size: 15em;}
+.introcal::before {top: 98px;left: 182px;}
+.introcal::after {top: 228px;left: 184px;}
+.potit p::after { top: 18px; left: 626px; }
+.potit p::before { top: 107px; left: 803px; }
+.imaintr::after {top: 18px;left: 182px;}
+.imaintr::before {top: 308px;left: 183px;}
+.imaintr {width: 100px;height: 100px;}
+.imima {width: 120px;height: 120px;margin: 0px 0 0 -18px;}
+.navcal {margin: 0 15px 0 80px;font-size: clamp(9px, 10vh, 1.5em);}
+.avac {width: 80px;height: 80px;margin: 32px 0px 0px 4px;}
+.avac::before {top: 40px;left: -22px;}
+.avac::after {top: 44px;left: 70px;}
+.avac img {width: 60px;height: 60px;margin: 0px 0 0 0px;}
+.calything {border: none;}
+.botinab, .calything .dropdown {display: none;} 
+.calnots {border-right: none;font-size: clamp(0.5em, 12rem, 1.5em);margin: 0;}
+.calnots button {margin: 0 20px 0 0px;}
+.calsecond a::before {width: 1.3rem;height: 1.3rem;}
+.calnots button:nth-last-child(-n + 2) {display: none;}
+}
+@media (max-width: 375px){
+.oscuro .mono2 {top: 65vh;left: 24vh;width: 11vh;height: 11vh;}
+.claro .mono2 { top: 63vh; left: 27vh; width: 16vh; height: 16vh; }
+.claro .mono3 { width: 8vh; height: 8vh; top: 33vh; left: 4vh; }
+}  
+@media (max-width: 576px) { 
+.parallax {
+    height: 100vh; 
+}
+
+    .portada #visual {
+        width: clamp(172px, 240vw, 994vh);
+        height: 100%;
+        margin: 0 0 0 -45vh;
+    }
+
+        .oscuro .perspor {
+    height: 755px;
+}
+
+    .oscuro .mono1 {
+        top: 75vh;
+        left: 5vh;
+        width: 26vh;
+        height: 19vh;
+    }
+    .oscuro .mono2 {
+        top: 70vh;
+        left: 41vh;
+        width: 168px;
+        height: 138px;
+    }
+
+    .mono2 {
+    top: 60vh;
+    left: 30vh;
+    width: 245px;
+    height: 210px;
+    }
+
+    .oscuro .mono3 {
+        width: 10vh;
+        height: 7vh;
+        top: 29vh;
+        left: 3vh;
+    }  
+    .oscuro .mono4 {
+        top: 40vh;
+        left: 49vh;
+        width: 8vh;
+        height: 8vh;
+    }
+    .oscuro .mono5 {
+        top: 41vh;
+        left: 11vh;
+        width: 8vh;
+        height: 8vh;
+    }
+
+.oscuro .mono6 {
+    width: 15vh;
+    height: 15vh;
+    top: 1vh;
+    left: 2vh;
+}
+    .potit p {
+        width: calc(100% - 15%);
+        font-size: 1em;
+    }
+.potit h1 {
+    font-size: 9em; 
+}
+    .introcal::before {
+        top: 29px;
+        left: 93px;
+    }
+    .introcal::after {
+        top: 135px;
+        left: 94px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 514px;
+    }
+    .potit p::before {
+        top: 130px;
+        left: 514px;
+    }
+    .imaintr::after {
+        top: 18px;
+        left: 94px;
+    }
+    .imaintr::before {
+        top: 145px;
+        left: 94px;
+    }
+
+.imaintr {
+    width: 75px;
+    height: 76px; 
+}
+
+.imima {
+    width: 108px;
+    height: 82px;
+    margin: -3px 0 0 -18px;
+}
+
+.navcal {
+    margin: 0 15px 0 68px;
+    font-size: clamp(9px, 10vh, 10px);
+}
+
+.avac {
+    width: 50px;
+    height: 50px;
+    margin: 32px 0px 0px 15px;
+}
+
+.avac::before {
+    top: 29px;
+    left: -18px; 
+}
+
+.avac::after {
+    top: 29px;
+    left: 38px;
+}
+
+
+.calything {
+    border: none;
+}
+
+.botinab, .calything .dropdown {
+    display: none;
+}
+
+.calnots {
+    border-right: none;
+    font-size: clamp(0.5em, 12rem, 14px);
+    margin: 0;
+}
+
+.calnots button {
+    margin: 0 10px 0 0px;
+}
+
+.calnots button:nth-last-child(-n + 2) {
+  display: none; 
+}
+
+ }
+
+@media (max-width: 768px)  { 
+.parallax {
+    height: 100vh; 
+}
+    .portada #visual {
+        width: clamp(132px, 408vw, 978vh);
+        height: 100%;
+        margin: 0px 0 0 -59vh;
+    }
+    .oscuro .perspor {
+        height: 1235px;
+    }
+    .oscuro .mono1 {
+        top: 74vh;
+        left: 0vh;
+        width: 17vh;
+        height: 17vh;
+    }
+    .oscuro .mono2 {
+        top: 67vh;
+        left: 24vh;
+        width: 13vh;
+        height: 13vh;
+    }
+    .oscuro .mono3 {
+        width: 9vh;
+        height: 9vh;
+        top: 32vh;
+        left: 6vh;
+    }
+    .oscuro .mono4 {
+        top: 45vh;
+        left: 30vh;
+        width: 7vh;
+        height: 7vh;
+    }
+    .oscuro .mono5 {
+        top: 45vh;
+        left: 7vh;
+        width: 8vh;
+        height: 8vh;
+    }
+
+        .oscuro .mono6 {
+        width: 16vh;
+        height: 16vh;
+        top: 2vh;
+        left: 2vh;
+    }
+    .potit h1 {
+        font-size: 15em;
+    }
+
+    .introcal::before {
+    display: none;
+    }
+
+    .introcal::after {
+    display: none;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 918px;
+    }
+    .potit p::before {
+        top: 153px;
+        left: 918px;
+    }
+    .imaintr::after {
+        top: 17px;
+        left: 138px;
+    }
+    .imaintr::before {
+        top: 167px;
+        left: 138px;
+    }
+    .imaintr {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imima {
+        width: 125px;
+        height: 109px;
+        margin: -2px 0 0 -11px;
+    }
+    .navcal {
+        margin: 0px 15px 0 60px;
+        font-size: clamp(9px, 10vh, 11px);
+    }
+    .avac {
+        width: 75px;
+        height: 75px;
+        margin: 30px 0px 0px 10px;
+    }
+
+    .avac::before {
+        top: 35px;
+        left: -21px;
+    }
+
+    .avac::after {
+        top: 35px;
+        left: 49px;
+    }
+    .avac img {
+        width: 60px;
+        height: 60px;
+        margin: -3px 0 0 -5px;
+    }
+
+
+.calything {
+    border: none;
+}
+
+.botinab, .calything .dropdown {
+    display: none;
+}
+    .calnots {
+        border-right: none;
+        font-size: clamp(0.5em, 12rem, 1.5em);
+        margin: 0;
+    }
+    .calnots button {
+        margin: 0px 10px;
+    }
+
+.calnots button:nth-last-child(-n + 2) {
+  display: none; 
+}
+  
+  .calsecond a::before {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+ }
+
+@media (max-width: 992px)  { 
+.parallax {
+    height: 100vh; 
+}
+
+    .portada #visual {
+        width: clamp(132px, 195vw, 984vh);
+        height: 100%;
+        margin: 0 0 0 -40vh;
+    }
+
+        .oscuro .perspor {
+    height: 755px;
+}
+
+    .oscuro .mono1 {
+        top: 74vh;
+        left: 2vh;
+        width: 30vh;
+        height: 22vh;
+    }
+
+        .oscuro .mono2 {
+        top: 68vh;
+        left: 68vh;
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .oscuro .mono3 {
+        width: 10vh;
+        height: 7vh;
+        top: 34vh;
+        left: 10vh;
+    }
+        .oscuro .mono4 {
+        top: 44vh;
+        left: 70vh;
+        width: 12vh;
+        height: 12vh;
+    }
+
+        .oscuro .mono5 {
+        top: 46vh;
+        left: 20vh;
+        width: 12vh;
+        height: 12vh;
+    }
+
+        .oscuro .mono6 {
+        width: 16vh;
+        height: 16vh;
+        top: 2vh;
+        left: 2vh;
+    }
+
+        .potit h1 {
+        font-size: 11em;
+    }
+
+    .introcal::before {
+    display: none;
+    }
+
+    .introcal::after {
+    display: none;
+    }
+
+    .potit p::after {
+        top: 18px;
+        left: 709px;
+    }
+
+    .potit p::before {
+        top: 84px;
+        left: 709px;
+    }
+
+    .imaintr::after {
+        top: 16px;
+        left: 128px;
+    }
+    .imaintr::before {
+        top: 100px;
+        left: 128px;
+    }
+    .imaintr {
+    width: 75px;
+    height: 76px; 
+}
+
+.imima {
+    width: 108px;
+    height: 82px;
+    margin: -3px 0 0 -18px;
+}
+
+.navcal {
+    margin: 0 15px 0 68px;
+    font-size: clamp(9px, 10vh, 10px);
+}
+
+.navcal {
+    margin: 0 15px 0 68px;
+    font-size: clamp(9px, 10vh, 14px);
+}
+
+    .avac {
+        width: 60px;
+        height: 60px;
+        margin: 30px 0px 0px 10px;
+    }
+
+    .avac::before {
+        top: 35px;
+        left: -21px;
+    }
+
+    .avac::after {
+        top: 35px;
+        left: 49px;
+    }
+
+
+.calything {
+    border: none;
+}
+
+.botinab, .calything .dropdown {
+    display: none;
+}
+
+.calnots {
+    border-right: none;
+    font-size: clamp(0.5em, 12rem, 13px);
+    margin: 0;
+}
+
+.calnots button {
+    margin: 0 10px 0 0px;
+}
+
+.calnots button:nth-last-child(-n + 2) {
+  display: none; 
+}
+
+ }
+
+
+
+/*Large devices (desktops, 992px and up))*/
+@media (max-width: 1024px) { 
+    .parallax {
+        height: 100vh; 
+    }
+    .portada #visual {
+        width: 128vw;
+        height: 100vh;
+        margin: 0px 0px 0px -15vh;
+    }
+    .oscuro .perspor {
+        height: 776px;
+    }
+    .oscuro .mono1 {
+        top: 78vh;
+        left: 15vh;
+        width: 28vh;
+        height: 20vh;
+    }
+
+    .oscuro .mono2 {
+        top: 77vh;
+        left: 87vh;
+        width: 24vh;
+        height: 24vh;
+    }
+
+    .oscuro .mono3 {
+        width: 12vh;
+        height: 12vh;
+        top: 23vh;
+        left: 10vh;
+    }
+    .oscuro .mono4 {
+        top: 43vh;
+        left: 96vh;
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .oscuro .mono5 {
+        top: 46vh;
+        left: 21vh;
+        width: 16vh;
+        height: 16vh;
+    }
+
+    .oscuro .mono6 {
+        width: 18vh;
+        height: 18vh;
+        top: 1vh;
+        left: 3vh;
+    }
+    .potit h1 {
+        font-size: 16em;
+    }
+        .potit p {
+        width: calc(100% - 40%);
+    }
+    .introcal::before {
+        display: block;
+        top: 17px;
+        left: 250px;
+    }
+    .introcal::after {
+        display: block;
+        top: 123px;
+        left: 247px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 795px;
+    }
+    .potit p::before {
+        top: 107px;
+        left: 795px;
+    }
+    .imaintr::after {
+        top: 18px;
+        left: 248px;
+    }
+    .imaintr::before {
+        top: 122px;
+        left: 248px;
+    }
+    .imaintr {
+    width: 75px;
+    height: 76px; 
+}
+
+.imima {
+    width: 108px;
+    height: 82px;
+    margin: -3px 0 0 -18px;
+}
+
+    .navcal {
+        margin: 0 10px 0 0px;
+        font-size: clamp(9px, 10vh, 16px);
+    }
+
+    .avac {
+        width: 60px;
+        height: 60px;
+        margin: 30px 0px 0px 10px;
+    }
+
+    .avac::before {
+        top: 35px;
+        left: -21px;
+    }
+
+    .avac::after {
+        top: 35px;
+        left: 49px;
+    }
+
+
+.calything {
+    border-right: 1px solid var(--acento1);
+}
+
+.botinab, .calything .dropdown {
+    display: block;
+}
+
+.calnav .dropdown {
+    margin: 0 10px 0 86px;
+}
+
+    .calnots {
+        border-right: none;
+        font-size: clamp(0.5em, 12rem, 16px);
+        margin: 0;
+    }
+
+.calnots button {
+    margin: 0 10px 0 0px;
+}
+
+.calnots button:nth-last-child(-n + 2), .botinab {
+  display: none; 
+}
+
+ }
+
+@media (max-width: 1025px) {
+
+}
+
+/*X-Large devices (large desktops, 1200px and up))*/
+@media (max-width: 1200px) { 
+    .parallax {
+        height: 100vh;
+    }
+    .portada #visual {
+        width: 106vw;
+        height: 100vh;
+        margin: 0vh;
+    }
+
+    .oscuro .perspor {
+    height: 780px;
+}
+
+    .oscuro .mono1 {
+        top: 78vh;
+        left: 23vh;
+        width: 22vh;
+        height: 22vh;
+    }
+    .oscuro .mono2 {
+        top: 71vh;
+        left: 113vh;
+        width: 25vh;
+        height: 25vh;
+    }
+    .oscuro .mono3 {
+        width: 15vh;
+        height: 15vh;
+        top: 20vh;
+        left: 16vh;
+    }
+    .oscuro .mono4 {
+        top: 44vh;
+        left: 112vh;
+        width: 15vh;
+        height: 15vh;
+    }
+    .oscuro .mono5 {
+        top: 47vh;
+        left: 30vh;
+        width: 17vh;
+        height: 17vh;
+    }
+    .oscuro .mono6 {
+        width: 20vh;
+        height: 20vh;
+        top: 0vh;
+        left: 4vh;
+    }
+    .potit h1 {
+        font-size: 18em;
+    }
+    .potit p {
+        width: calc(100% - 50%);
+    }
+    .introcal::before {
+        display: block;
+        top: 16px;
+        left: 349px;
+    }
+    .introcal::after {
+        display: block;
+        top: 122px;
+        left: 349px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 903px;
+    }
+    .potit p::before {
+        top: 106px;
+        left: 903px;
+    }
+    .imaintr::before {
+    box-shadow: 3px -3px var(--acento3);
+    border-top-right-radius: 6px;
+    }
+    .imaintr::after {
+        box-shadow: 3px 3px var(--acento3);
+        border-bottom-right-radius: 6px;
+    }
+    .imaintr::after {
+        top: 16px;
+        left: 331px;
+    }
+    .imaintr::before {
+        top: 122px;
+        left: 330px;
+    }
+    .imaintr {
+        width: 75px;
+        height: 76px; 
+    }
+    .imima {
+        width: 108px;
+        height: 82px;
+        margin: -3px 0 0 -18px;
+    }
+    .navcal {
+        margin: 0 10px 0 0px;
+        font-size: clamp(9px, 10vh, 16px);
+    }
+    .avac {
+        width: 70px;
+        height: 70px;
+        margin: 30px 0px 0px 10px;
+    }
+    .avac::before {
+        top: 40px;
+        left: -20px;
+    }
+    .avac::after {
+        top: 40px;
+        left: 60px;
+    }
+    .calything {
+        border-right: 1px solid var(--acento1);
+    }
+    .botinab, .calything .dropdown {
+        display: block;
+    }
+    .calnav .dropdown {
+        margin: 0 10px 0 90px;
+    }
+    .calnots {
+        font-size: clamp(0.5em, 13rem, 18px);
+        margin: 0;
+        border-right: 1px solid var(--acento1);
+    }
+    .calnots button {
+        margin: 0 10px 0 0px;
+    }
+    .calnots button:nth-last-child(-n + 2), .botinab {
+        display: flex; 
+    }
+    .botinab button{
+    margin: 5px;
+    }
+ }
+
+ @media (max-width: 1366px) { 
+    .parallax {
+        height: 100vh;
+    }
+    .portada #visual {
+        width: 106vw;
+        height: 100vh;
+        margin: 0vh;
+    }
+
+    .oscuro .perspor {
+    height: 780px;
+}
+
+    .oscuro .mono1 {
+        top: 78vh;
+        left: 23vh;
+        width: 22vh;
+        height: 22vh;
+    }
+    .oscuro .mono2 {
+        top: 71vh;
+        left: 113vh;
+        width: 25vh;
+        height: 25vh;
+    }
+    .oscuro .mono3 {
+        width: 15vh;
+        height: 15vh;
+        top: 20vh;
+        left: 16vh;
+    }
+    .oscuro .mono4 {
+        top: 44vh;
+        left: 112vh;
+        width: 15vh;
+        height: 15vh;
+    }
+    .oscuro .mono5 {
+        top: 47vh;
+        left: 30vh;
+        width: 17vh;
+        height: 17vh;
+    }
+    .oscuro .mono6 {
+        width: 20vh;
+        height: 20vh;
+        top: 0vh;
+        left: 4vh;
+    }
+    .potit h1 {
+        font-size: 18em;
+    }
+    .potit p {
+        width: calc(100% - 50%);
+    }
+    .introcal::before {
+        display: block;
+        top: 16px;
+        left: 349px;
+    }
+    .introcal::after {
+        display: block;
+        top: 122px;
+        left: 349px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 903px;
+    }
+    .potit p::before {
+        top: 106px;
+        left: 903px;
+    }
+    .imaintr::before {
+    box-shadow: 3px -3px var(--acento3);
+    border-top-right-radius: 6px;
+    }
+    .imaintr::after {
+        box-shadow: 3px 3px var(--acento3);
+        border-bottom-right-radius: 6px;
+    }
+    .imaintr::after {
+        top: 16px;
+        left: 331px;
+    }
+    .imaintr::before {
+        top: 122px;
+        left: 330px;
+    }
+    .imaintr {
+        width: 75px;
+        height: 76px; 
+    }
+    .imima {
+        width: 108px;
+        height: 82px;
+        margin: -3px 0 0 -18px;
+    }
+    .navcal {
+        margin: 0 10px 0 0px;
+        font-size: clamp(9px, 10vh, 16px);
+    }
+    .avac {
+        width: 70px;
+        height: 70px;
+        margin: 30px 0px 0px 10px;
+    }
+    .avac::before {
+        top: 40px;
+        left: -20px;
+    }
+    .avac::after {
+        top: 40px;
+        left: 60px;
+    }
+    .calything {
+        border-right: 1px solid var(--acento1);
+    }
+    .botinab, .calything .dropdown {
+        display: block;
+    }
+    .calnav .dropdown {
+        margin: 0 10px 0 90px;
+    }
+    .calnots {
+        font-size: clamp(0.5em, 13rem, 18px);
+        margin: 0;
+        border-right: 1px solid var(--acento1);
+    }
+    .calnots button {
+        margin: 0 10px 0 0px;
+    }
+    .calnots button:nth-last-child(-n + 2), .botinab {
+        display: flex; 
+    }
+    .botinab button{
+    margin: 5px;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up))*/
+@media (max-width: 1400px)  { 
+    .parallax {
+        height: 100vh; 
+    }
+    .portada #visual {
+        margin: 0vh;
+        width: 100vw;
+        height: auto;
+    }
+    .oscuro .perspor {
+        height: 800px;
+        margin: -7vh 0 0 0px;
+    }
+    .oscuro .mono1 {
+        top: 78vh;
+        left: 23vh;
+        width: 22vh;
+        height: 22vh;
+    }
+    .oscuro .mono2 {
+        top: 73vh;
+        left: 125vh;
+        width: 27vh;
+        height: 27vh;
+    }
+    .oscuro .mono3 {
+        width: 17vh;
+        height: 17vh;
+        top: 22vh;
+        left: 20vh;
+    }
+    .oscuro .mono4 {
+        top: 44vh;
+        left: 130vh;
+        width: 17vh;
+        height: 17vh;
+    }
+    .oscuro .mono5 {
+        top: 47vh;
+        left: 37vh;
+        width: 19vh;
+        height: 19vh;
+    }
+    .oscuro .mono6 {
+        width: 23vh;
+        height: 23vh;
+        top: 0vh;
+        left: 2vh;
+    }
+    .potit h1 {
+        font-size: 20em;
+    }
+    .potit p {
+        width: calc(100% - 60%);
+    }
+    .introcal::before {
+        display: block;
+        top: 17px;
+        left: 468px;
+    }
+    .introcal::after {
+        display: block;
+        top: 122px;
+        left: 468px;
+    }
+    .potit p::after {
+        top: 18px;
+        left: 984px;
+    }
+    .potit p::before {
+        top: 107px;
+        left: 984px;
+    }
+    .imaintr::before {
+    box-shadow: 3px -3px var(--acento3);
+    border-top-right-radius: 6px;
+    }
+    .imaintr::after {
+        box-shadow: 3px 3px var(--acento3);
+        border-bottom-right-radius: 6px;
+    }
+    .imaintr::after {
+        top: 17px;
+        left: 450px;
+    }
+    .imaintr::before {
+        top: 122px;
+        left: 450px;
+    }
+    .imaintr {
+        width: 75px;
+        height: 76px; 
+    }
+    .imima {
+        width: 108px;
+        height: 82px;
+        margin: -3px 0 0 -18px;
+    }
+    .navcal {
+        margin: 0 10px 0 0px;
+        font-size: clamp(9px, 10vh, 18px);
+    }
+    .avac {
+        width: 80px;
+        height: 80px;
+        margin: 30px 0px 0px 10px;
+    }
+    .avac::before {
+        top: 45px;
+        left: -20px;
+    }
+    .avac::after {
+        top: 45px;
+        left: 70px;
+    }
+    .calything {
+        border-right: 1px solid var(--acento1);
+    }
+    .botinab, .calything .dropdown {
+        display: block;
+    }
+    .calnav .dropdown {
+        margin: 0 10px 0 90px;
+    }
+    .calnots {
+        font-size: clamp(0.5em, 13rem, 18px);
+        margin: 0;
+        border-right: 1px solid var(--acento1);
+    }
+    .calnots button {
+        margin: 0 10px 0 0px;
+    }
+    .calnots button:nth-last-child(-n + 2), .botinab {
+        display: flex; 
+    }
+    .botinab button{
+    margin: 5px;
+    }
+ }
+
+ @media (max-width: 1920px) {
+
+}
+</style>
