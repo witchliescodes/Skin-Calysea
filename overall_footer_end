@@ -276,7 +276,7 @@
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: 0 !important;padding-left: 0 !important;margin-right: 0 !important;margin-left: 0 !important;}
 
 @media (max-width: 374px) {
-.portada #visual {width: clamp(240px, 400vw, 983vh);height: 100%; margin: 0px 0 0 -43vh;}
+.portada #visual {width: clamp(240px, 338vw, 983vh);height: 100%; margin: 0px 0 0 -43vh;}
 .oscuro .perspor, .claro .perspor { height: 746px; margin: 25px 0 134px 0;}
 .oscuro .mono1 { top: 86vh; left: 3vh;  width: 24vh; height: 24vh; }
 .claro .mono1 { top: 81vh; left: 5vh; width: 28vh; height: 28vh; }
