@@ -41,6 +41,7 @@
   --acento2: #60519b;
   --acento3: #816dcf;
   --acento4: #bfc0d1;
+  --acento5: #dddde5;
   /*fondos*/
     --fondo1: #1e202c;
     --fondo2: #31323e;
@@ -319,7 +320,7 @@ body.claro {
     justify-content: center;
     flex-flow: column;
     z-index: 5;
-     grid-column: 1 / 4;
+    grid-column: 1 / 4;
 }
 
 .potit h1 {
