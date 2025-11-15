@@ -488,8 +488,8 @@
         </div>
         <div class="calnots">
         <!-- BEGIN switch_user_logged_in -->
+        <div class="notific"> </div>  
         <button onclick="window.open('/privmsg?folder=inbox', '_blank')" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Mensajería privada" class="callme"><i class="bi bi-envelope-fill"></i></button>
-	<div class="notific"> </div>
         <!-- END switch_user_logged_in -->
          <button 
          id="modo-oscuro"
