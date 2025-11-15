@@ -501,8 +501,8 @@
           <i class="bi bi-sun-fill"></i>
         </button>
         <button data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Cambio de cuentas"><i class="bi bi-person-fill-add"></i></button>
-        <button data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Aumentar tamaño de letra"><i class="ai-circle-plus-fill"></i></button>
-        <button data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Disminuir tamaño de letra"><i class="ai-circle-minus-fill"></i></button>
+        <button id="btn-aumentar" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Aumentar tamaño de letra"><i class="ai-circle-plus-fill"></i></button>
+        <button id="btn-disminuir" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Disminuir tamaño de letra"><i class="ai-circle-minus-fill"></i></button>
         </div>
         <div class="botinab">
             <button id="scrollUp" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Subir"><i class="bi bi-arrow-up-circle-fill"></i></button>
