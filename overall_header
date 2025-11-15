@@ -489,7 +489,9 @@
         <div class="calnots">
         <!-- BEGIN switch_user_logged_in -->
         <button onclick="window.open('/privmsg?folder=inbox', '_blank')" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Mensajería privada" class="callme"><i class="bi bi-envelope-fill"></i></button>
-	<button data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="¡Ya te respondieron el rol!, ¡o no!(?)" id="notific"><i class="bi bi-bell-fill"></i></button>
+	<div class="notific">
+          <i class="bi bi-bell-fill notification-icon"></i>
+          </div>
         <!-- END switch_user_logged_in -->
          <button 
          id="modo-oscuro"
