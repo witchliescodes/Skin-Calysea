@@ -1115,20 +1115,52 @@ display: none;
 
 @media (min-width: 320px) {
 .oscuro .portada, .claro .portada { min-height: 80vh; }  
-.portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
+.portada #visual {  width: clamp(600px, 200vw, 400vw); height: 221vw; margin: 0px 0 0 -200px; }
 .perspor { height: 185vw;}  
-.claro .mono1 { top: 117vw; left: 3vh; width: 56vw; height: 76vw; }  
-.claro .mono2 { top: 47vh; left: 66vh; width: 73vw; height: 57vw; }  
-.claro .mono3 { top: 65vw; left: 16vh; width: 21vh; height: 23vw; }  
-.claro .mono4 { top: 94vw; left: 70vh; width: 11vh; height: 11vh; }  
-.claro .mono5 { top: 99vw; left: 26vh; width: 20vh; height: 29vw; }  
-.claro .mono6 { top: 14vw; left: 1vh; width: 20vh; height: 39vw; }  
-.oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
-.oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
-.oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
-.oscuro .mono4 { top: 79vw;  left: 65vh;  width: 14vh;  height: 29vw; }
-.oscuro .mono5 {  top: 100vw;  left: 30vh;  width: 12vh; height: 30vw; }
-.oscuro .mono6 { top: 9vw; left: 4vh;  width: 14vh; height: 35vw; }
+.claro .mono1 { top: 117%; left: 3%; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47%; left: 66%; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16%; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94%; left: 70%; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99%; left: 26%; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14%; left: 1%; width: 20vh; height: 39vw; }  
+.oscuro .mono1 {  top: 133%; left: 6%; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120%; left: 73%;  width: 23vh; height: 50vw; }
+.oscuro .mono3 {  top: 60%; left: 18%; width: 15vh; height: 25vw; } 
+.oscuro .mono4 { top: 79%;  left: 65%;  width: 14vh;  height: 29vw; }
+.oscuro .mono5 {  top: 100%;  left: 30%;  width: 12vh; height: 30vw; }
+.oscuro .mono6 { top: 9%; left: 4%;  width: 14vh; height: 35vw; }
+.potit h1 { font-size: clamp(2em, 55vw, 13em); }  
+.navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
+.avac::before {  top: 48px; left: -20px; }
+.avac::after { top: 48px; left: 71px; }
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
+.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
+.calything { border: none;} 
+.calnots { border-right: none; font-size: clamp(12px, 7vw, 2em); margin: 0; }
+.calything { border: none;} 
+.calnots button {margin: 0 20px 0 0px;}
+.calsecond a::before {width: 1.3rem; height: 1.3rem;}
+.calnots button:nth-last-child(-n + 2) {display: none;}
+}  
+
+@media (min-width: 360px) {
+.oscuro .portada, .claro .portada { min-height: 80vh; }  
+.portada #visual {  width: clamp(600px, 200vw, 400vw); height: 221vw; margin: 0px 0 0 -200px; }
+.perspor { height: 185vw;}  
+.claro .mono1 { top: 117%; left: 3%; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47%; left: 66%; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16%; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94%; left: 70%; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99%; left: 26%; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14%; left: 1%; width: 20vh; height: 39vw; }  
+.oscuro .mono1 {  top: 133%; left: 6%; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120%; left: 73%;  width: 23vh; height: 50vw; }
+.oscuro .mono3 {  top: 60%; left: 18%; width: 15vh; height: 25vw; } 
+.oscuro .mono4 { top: 79%;  left: 65%;  width: 14vh;  height: 29vw; }
+.oscuro .mono5 {  top: 100%;  left: 30%;  width: 12vh; height: 30vw; }
+.oscuro .mono6 { top: 9%; left: 4%;  width: 14vh; height: 35vw; }
 .potit h1 { font-size: clamp(2em, 55vw, 13em); }  
 .navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
 .avac::before {  top: 48px; left: -20px; }
@@ -1207,6 +1239,39 @@ display: none;
 .calsecond a::before {width: 1.3rem; height: 1.3rem;}
 .calnots button:nth-last-child(-n + 2) {display: none;}
 }  
+
+@media (min-width: 720px) {
+.oscuro .portada, .claro .portada { min-height: 80vh; }  
+.portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
+.perspor { height: 185vw;}  
+.claro .mono1 { top: 117vw; left: 3vh; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47vh; left: 66vh; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16vh; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94vw; left: 70vh; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99vw; left: 26vh; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14vw; left: 1vh; width: 20vh; height: 39vw; }  
+.oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
+.oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
+.oscuro .mono4 { top: 79vw;  left: 65vh;  width: 14vh;  height: 29vw; }
+.oscuro .mono5 {  top: 100vw;  left: 30vh;  width: 12vh; height: 30vw; }
+.oscuro .mono6 { top: 9vw; left: 4vh;  width: 14vh; height: 35vw; }
+.potit h1 { font-size: clamp(2em, 55vw, 13em); }  
+.navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
+.avac::before {  top: 48px; left: -20px; }
+.avac::after { top: 48px; left: 71px; }
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
+.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
+.calything { border: none;} 
+.calnots { border-right: none; font-size: clamp(12px, 7vw, 2em); margin: 0; }
+.calything { border: none;} 
+.calnots button {margin: 0 20px 0 0px;}
+.calsecond a::before {width: 1.3rem; height: 1.3rem;}
+.calnots button:nth-last-child(-n + 2) {display: none;}
+}  
+
 
 @media (min-width: 1366px) {
 .oscuro .portada { min-height: 76vh; }  
