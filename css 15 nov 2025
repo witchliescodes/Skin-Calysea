@@ -590,7 +590,7 @@ display: inline-block;
 
 #fa_toolbar #fa_right #notif_list {
     position: fixed;
-    right: 0;
+    right: 20px !important;
     transform: none; 
     width: 425px;
     max-height: 80vh;
@@ -1113,27 +1113,40 @@ display: none;
 
 /*RESPONSIVE*/
 
-@media (min-width: 375px) {
-.portada #visual { width: clamp(600px, 123vh, 400vh); height: 268vw; margin: 0px 0 0 -85vw; }  
-.mono1 { top: 141vw; left: 3vh; width: 50vw; height: 48vw; }
-.navcal { font-size: clamp(10px, 5vw, 2em); }
+@media (min-width: 320px) {
+.oscuro .portada, .claro .portada { min-height: 80vh; }  
+.portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
+.perspor { height: 185vw;}  
+.oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
+.oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
+.oscuro .mono4 { top: 79vw;  left: 65vh;  width: 14vh;  height: 29vw; }
+.oscuro .mono5 {  top: 100vw;  left: 30vh;  width: 12vh; height: 30vw; }
+.oscuro .mono6 { top: 9vw; left: 4vh;  width: 14vh; height: 35vw; }
+.potit h1 { font-size: clamp(2em, 55vw, 13em); }  
+.navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
+.avac::before { top: 51px; left: -20px; }  
+.avac::after { top: 53px; left: 71px; }  
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
 .calnav .dropdown button { max-width: 250px; width: 185px; }  
 .calything { border: none;} 
-.calnav .dropdown { display: none; }  
-.calnots { border-right: none; font-size: clamp(10px, 5vw, 2em); margin: 0; }
+.calnots { border-right: none; font-size: clamp(10px, 4vw, 2em); margin: 0; }
 .calnots button {margin: 0 20px 0 0px;}
 .calsecond a::before {width: 1.3rem; height: 1.3rem;}
 .calnots button:nth-last-child(-n + 2) {display: none;}
 }
 
 @media (min-width: 425px) {
-.oscuro .portada { min-height: 76vh; }  
-.portada #visual { width: clamp(600px, 148vh, 400vh); height: 157vw; margin: 0px 0 0 -200px; }
-.oscuro .mono1 { top: 119vw; left: 0vh; }  
-.oscuro .mono2 { top: 104vw; left: 73vh; }  
-.oscuro .mono3 { top: 37vw; left: 26vh; }  
-.oscuro .mono4 { top: 34vw; left: 60vh; }  
+.oscuro .portada, .claro .portada { min-height: 90vh; }  
+.portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
+.perspor { height: 185vw;}  
+.oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
+.oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
+.oscuro .mono4 { top: 79vw;  left: 65vh;  width: 14vh;  height: 29vw; }
 .oscuro .mono5 { top: 53vw; left: 32vh; width: 8vh; height: 15vw; }  
+.potit h1 { font-size: clamp(2em, 55vw, 13em); }  
 .navcal { font-size: clamp(10px, 4vw, 2em); }
 .avac::before { top: 51px; left: -20px; }  
 .avac::after { top: 53px; left: 71px; }  
@@ -1165,13 +1178,15 @@ display: none;
 
 @media (min-width: 1366px) {
 .oscuro .portada { min-height: 76vh; }  
-.portada #visual { width: clamp(600px, 160vh, 400vh); height: 140vw; margin: 0px 0 0 -43vw; }
-  .perspor { height: 49vw; }
-.oscuro .mono1 { top: 119vw; left: 0vh; }  
-.oscuro .mono2 { top: 104vw; left: 73vh; }  
-.oscuro .mono3 { top: 37vw; left: 26vh; }  
-.oscuro .mono4 { top: 34vw; left: 60vh; }  
-.oscuro .mono5 { top: 53vw; left: 32vh; width: 8vh; height: 15vw; }  
+.portada #visual { width: clamp(600px, 178vh, 400vh);  height: 74vw;  margin: -25vh 0 0 0vw; }
+.perspor { height: 49vw; }
+.oscuro .mono1 { top: 29vw; left: 10vh;  width: 19vw; height: 14vw;}
+.oscuro .mono2 { top: 29vw; left: 140vh; width: 15vw;  height: 15vw;}
+.oscuro .mono3 { top: 9vw; left: 38vh; width: 13vh;  height: 12vw;}
+.oscuro .mono4 { top: 24vw; left: 124vh; width: 7vw; height: 11vh; }
+.oscuro .mono5 { top: 26vw; left: 50vh;  width: 15vh; height: 9vw; }
+.oscuro .mono6 { top: 0vw; left: 4vh; transform: rotate(-85deg); width: 19vh; height: 11vw; }  
+.potit h1 { font-size: clamp(2em, 45vw, 15em); }  
 .navcal { font-size: clamp(10px, 4vw, 1em); }
 .avac::before { top: 47px; left: -18px; }
 .avac::after { top: 47px; left: 70px; }
@@ -1184,7 +1199,7 @@ display: none;
   .calnots button:nth-last-child(-n + 2) {display: block;}
 }  
 
- @media (max-width: 1920px) {
+@media (min-width: 1920px) {
 .oscuro .portada { min-height: 76vh; }  
 .portada #visual { width: clamp(600px, 202vh, 400vh); height: 140vw; margin: -105vh 0 0 0vw; }
 .perspor { height: 49vw; }
@@ -1210,5 +1225,5 @@ display: none;
 .calnots button {margin: 0 20px 0 0px;}
 .calsecond a::before {width: 1.3rem; height: 1.3rem;}
 .potit h1 { font-size: clamp(2em, 45vw, 16em); }  
-  .calnots button:nth-last-child(-n + 2) {display: block;}  
+.calnots button:nth-last-child(-n + 2) {display: block;}  
 }
