@@ -1117,6 +1117,12 @@ display: none;
 .oscuro .portada, .claro .portada { min-height: 80vh; }  
 .portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
 .perspor { height: 185vw;}  
+.claro .mono1 { top: 117vw; left: 3vh; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47vh; left: 66vh; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16vh; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94vw; left: 70vh; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99vw; left: 26vh; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14vw; left: 1vh; width: 20vh; height: 39vw; }  
 .oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
 .oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
 .oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
@@ -1125,52 +1131,78 @@ display: none;
 .oscuro .mono6 { top: 9vw; left: 4vh;  width: 14vh; height: 35vw; }
 .potit h1 { font-size: clamp(2em, 55vw, 13em); }  
 .navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
-.avac::before { top: 51px; left: -20px; }  
-.avac::after { top: 53px; left: 71px; }  
+.avac::before {  top: 48px; left: -20px; }
+.avac::after { top: 48px; left: 71px; }
 .calnav .dropdown { display: none;}  
 .botinab { display: none;}  
 .calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
 .calything { border: none;} 
-.calnots { border-right: none; font-size: clamp(10px, 4vw, 2em); margin: 0; }
-.calnots button {margin: 0 20px 0 0px;}
-.calsecond a::before {width: 1.3rem; height: 1.3rem;}
-.calnots button:nth-last-child(-n + 2) {display: none;}
-}
-
-@media (min-width: 425px) {
-.oscuro .portada, .claro .portada { min-height: 90vh; }  
-.portada #visual {  width: clamp(600px, 157vh, 400vh); height: 221vw; margin: 0px 0 0 -200px; }
-.perspor { height: 185vw;}  
-.oscuro .mono1 {  top: 133vw; left: 6vh; height: 50vw; width: 25vh; }
-.oscuro .mono2 {  top: 120vw; left: 73vh;  width: 23vh; height: 50vw; }
-.oscuro .mono3 {  top: 60vw; left: 18vh; width: 15vh; height: 25vw; } 
-.oscuro .mono4 { top: 79vw;  left: 65vh;  width: 14vh;  height: 29vw; }
-.oscuro .mono5 { top: 53vw; left: 32vh; width: 8vh; height: 15vw; }  
-.potit h1 { font-size: clamp(2em, 55vw, 13em); }  
-.navcal { font-size: clamp(10px, 4vw, 2em); }
-.avac::before { top: 51px; left: -20px; }  
-.avac::after { top: 53px; left: 71px; }  
-.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.calnots { border-right: none; font-size: clamp(12px, 7vw, 2em); margin: 0; }
 .calything { border: none;} 
-.calnots { border-right: none; font-size: clamp(10px, 4vw, 2em); margin: 0; }
 .calnots button {margin: 0 20px 0 0px;}
 .calsecond a::before {width: 1.3rem; height: 1.3rem;}
 .calnots button:nth-last-child(-n + 2) {display: none;}
 }  
+
+@media (min-width: 425px) {
+.oscuro .portada, .claro .portada { min-height: 80vh; }  
+.portada #visual { width: clamp(600px, 129vh, 400vh); height: 156vw; margin: 0vw 0 0 -18vh; }
+.perspor {  height: 130vw; }
+.claro .mono1 { top: 117vw; left: 3vh; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47vh; left: 66vh; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16vh; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94vw; left: 70vh; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99vw; left: 26vh; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14vw; left: 1vh; width: 20vh; height: 39vw; }  
+.oscuro .mono1 { top: 89vw; left: 6vh; height: 50vw; width: 30vh; }
+.oscuro .mono2 { top: 95vw; left: 78vh; width: 20vh; height: 30vw; }
+.oscuro .mono3 { top: 45vw; left: 13vh; width: 15vh; height: 15vw; }
+.oscuro .mono4 { top: 74vw; left: 77vh; width: 11vh; height: 19vw; }
+.oscuro .mono5 { top: 70vw; left: 22vh;  width: 12vh;  height: 30vw; }
+.oscuro .mono6 { top: 6vw; left: 2vh; width: 17vh; height: 25vw; }
+.navcal { font-size: clamp(12px, 4vw, 2em); margin: 0 0 0 85px; }
+.avac::before {  top: 48px; left: -20px; }
+.avac::after { top: 48px; left: 71px; }
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
+.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
+.calything { border: none;} 
+.calnots { border-right: none; font-size: clamp(12px, 5vw, 2em); margin: 0; }
+.calything { border: none;} 
+.calnots button {margin: 0 20px 0 0px;}
+.calsecond a::before {width: 1.3rem; height: 1.3rem;}
+.calnots button:nth-last-child(-n + 2) {display: none;}
+}
   
 @media (min-width: 576px) {
-.oscuro .portada { min-height: 76vh; }  
-.portada #visual { width: clamp(600px, 160vh, 400vh); height: 140vw; margin: 0px 0 0 -43vw; }
-.oscuro .mono1 { top: 119vw; left: 0vh; }  
-.oscuro .mono2 { top: 104vw; left: 73vh; }  
-.oscuro .mono3 { top: 37vw; left: 26vh; }  
-.oscuro .mono4 { top: 34vw; left: 60vh; }  
-.oscuro .mono5 { top: 53vw; left: 32vh; width: 8vh; height: 15vw; }  
-.navcal { font-size: clamp(10px, 4vw, 2em); }
-.avac::before { top: 51px; left: -20px; }  
-.avac::after { top: 53px; left: 71px; }  
+.oscuro .portada, .claro .portada { min-height: 80vh; }  
+.portada #visual {  width: clamp(600px, 205vh, 400vh); height: 143vw; margin: -30vw 0 0 -55vh; }
+.perspor { height: 100vw; }
+.claro .mono1 { top: 117vw; left: 3vh; width: 56vw; height: 76vw; }  
+.claro .mono2 { top: 47vh; left: 66vh; width: 73vw; height: 57vw; }  
+.claro .mono3 { top: 65vw; left: 16vh; width: 21vh; height: 23vw; }  
+.claro .mono4 { top: 94vw; left: 70vh; width: 11vh; height: 11vh; }  
+.claro .mono5 { top: 99vw; left: 26vh; width: 20vh; height: 29vw; }  
+.claro .mono6 { top: 14vw; left: 1vh; width: 20vh; height: 39vw; }  
+.oscuro .mono1 { top: 70vw; left: 3vh; height: 27vw; width: 25vh; }
+.oscuro .mono2 { top: 70vw; left: 91vh; width: 22vh; height: 27vw; }
+.oscuro .mono3 { top: 33vw; left: 20vh; width: 15vh; height: 15vw; }
+.oscuro .mono4 { top: 53vw; left: 85vh; width: 11vh; height: 16vw; }
+.oscuro .mono5 { top: 55vw; left: 30vh; width: 10vh; height: 15vw; }
+.oscuro .mono6 { top: 0vw;  left: 4vh;  width: 15vh; height: 20vw; }
+.potit h1 { font-size: clamp(2em, 55vw, 11em); }  
+.navcal { font-size: clamp(12px, 6vw, 2em);  margin: 0 0 0 85px; }
+.avac::before {  top: 48px; left: -20px; }
+.avac::after { top: 48px; left: 71px; }
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
+.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
 .calything { border: none;} 
-.calnots { border-right: none; font-size: clamp(10px, 4vw, 2em); margin: 0; }
+.calnots { border-right: none; font-size: clamp(12px, 7vw, 2em); margin: 0; }
+.calything { border: none;} 
 .calnots button {margin: 0 20px 0 0px;}
 .calsecond a::before {width: 1.3rem; height: 1.3rem;}
 .calnots button:nth-last-child(-n + 2) {display: none;}
@@ -1187,7 +1219,7 @@ display: none;
 .oscuro .mono5 { top: 26vw; left: 50vh;  width: 15vh; height: 9vw; }
 .oscuro .mono6 { top: 0vw; left: 4vh; transform: rotate(-85deg); width: 19vh; height: 11vw; }  
 .potit h1 { font-size: clamp(2em, 45vw, 15em); }  
-.navcal { font-size: clamp(10px, 4vw, 1em); }
+.navcal { font-size: clamp(10px, 4vw, 1em); margin: 0;}
 .avac::before { top: 47px; left: -18px; }
 .avac::after { top: 47px; left: 70px; }
 .calnav .dropdown { display: block;}  
@@ -1215,7 +1247,7 @@ display: none;
 .oscuro .mono4 {  top: 24vw; left: 136vh; } 
 .oscuro .mono5 { top: 26vw; left: 64vh; width: 14vh; height: 7vw; }
 .oscuro { top: 2vw; left: 3vh; width: 20vh; height: 11vw;}
-.navcal { font-size: clamp(10px, 4vw, 1em); }
+.navcal { font-size: clamp(10px, 4vw, 1em); margin: 0;}
 .avac::before { top: 47px; left: -20px; }
 .avac::after { top: 47px; left: 70px; }
 .calnav .dropdown { display: block;}  
