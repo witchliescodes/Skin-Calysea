@@ -1177,6 +1177,38 @@ display: none;
 .calnots button:nth-last-child(-n + 2) {display: none;}
 }  
 
+@media (min-width: 414px) {
+.oscuro .portada, .claro .portada { min-height: 80vh;}
+.portada #visual { width: clamp(1000px, 75vh, 400vh); height: auto; margin: 0% 0 0 -13%;}
+.perspor { height: 135vw;}  
+.claro .mono1 { top: 65%; left: 5%;  width: 35vw; height: 15vh; }
+.claro .mono2 { top: 60%; left: 70%; width: 25vw; height: 10vh; }  
+.claro .mono3 { top: 32%; left: 21%; width: 10vw; height: 10vh; }
+.claro .mono4 { top: 47%; left: 70%; width: 10vw; height: 6vh; }  
+.claro .mono5 { top: 45%; left: 28%; width: 15vw; height: 10vh; }  
+.claro .mono6 { top: 0%; left: 1%; width: 20vw; height: 10vh; }  
+.oscuro .mono1 {  top: 133%; left: 6%; height: 50vw; width: 25vh; }
+.oscuro .mono2 {  top: 120%; left: 73%;  width: 23vw; height: 50vh; }
+.oscuro .mono3 {  top: 60%; left: 18%; width: 15vw; height: 25vh; } 
+.oscuro .mono4 { top: 79%;  left: 65%;  width: 14vw;  height: 29vh; }
+.oscuro .mono5 {  top: 100%;  left: 30%;  width: 12vw; height: 30vh; }
+.oscuro .mono6 { top: 9%; left: 4%;  width: 14vw; height: 35vw; }
+.potit h1 { font-size: clamp(2em, 40vw, 13em);}  
+.navcal, .calnots{ font-size: clamp(12px, 2vw, 2em);  margin: 0 0 0 85px; }
+.avac::before { top: 47px; left: -20px; }
+.avac::after { top: 47px;  left: 70px; }
+.calnav .dropdown { display: none;}  
+.botinab { display: none;}  
+.calnav .dropdown button { max-width: 250px; width: 185px; }  
+.notific { margin: 0 20px 0 15px; }  
+.calything { border: none;} 
+.calnots { border-right: none; margin: 0; }
+.calything { border: none;} 
+.calnots button {margin: 0 20px 0 0px;}
+.calsecond a::before {width: 1.3rem; height: 1.3rem;}
+.calnots button:nth-last-child(-n + 2) {display: none;}
+}  
+
 
 @media (min-width: 1024px) {
 .oscuro .portada, .claro .portada { min-height: 100vh; }  
