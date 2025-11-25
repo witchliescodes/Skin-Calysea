@@ -65,6 +65,7 @@
   --mono4: url('https://images2.imgbox.com/46/81/QVUtdCid_o.png');
   --mono5: url('https://images2.imgbox.com/3f/bb/JJ0DHUoo_o.png');
   --mono6: url('https://images2.imgbox.com/f2/57/A2lg3lPg_o.png');
+  --tabimg1: url('https://images2.imgbox.com/c0/5c/NYL0TcUi_o.png');
     /*Fuentes*/
     --titulo: 'Garges';
     --subtle: 'Redney';
