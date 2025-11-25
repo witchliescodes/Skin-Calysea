@@ -547,11 +547,22 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 			<div id="wrap">
 				<a id="top" name="top" accesskey="t"></a>
 				{JAVASCRIPT}
-<div class="tablcal">
-  <iframe src="/h2-tablon-de-anuncios" style="border:none;width: auto; height: auto;"></iframe>
- <div class="ultitem">aqui van los ultimos temas</div>                         
-</div>     
-                           
+                          <div class="tablcal"> 
+  <div class="fricaly">
+    <div class="caltiy">
+      <div class="img1tab"></div>
+      <h1>Tablon de anuncios</h1>
+    </div>   
+    <div class="caltram">
+      <b>Trama</b>
+      <p>Texto de la trama</p></div>  
+    <div class="stacaly">staff</div>  
+   </div>
+<div class="dos"><div class="ultitem">aqui van los ultimos temas</div></div>
+<div class="tres">tres</div>
+<div class="seis">seis</div>
+<div class="siete">siete</div>  
+</div>                  
 				<div id="page-body">
 
 					<div id="{ID_CONTENT_CONTAINER}"{CLASS_CONTENT_CONTAINER}>
@@ -570,4 +581,53 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 										</div>
 
 										<div id="main">
-											<div id="main-content">                                                                                                                                                                  
+											<div id="main-content">    
+<style>
+.tablcal {
+    margin: 30px 0 30px 0;
+    background: transparent;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    height: auto;
+    display: grid;
+    grid: auto auto / 3fr 1fr;
+    align-content: stretch;
+}
+
+.fricaly {
+    grid-column: 1 / 1;
+    grid-row: 1;
+    background: var(--fondo2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.dos {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4 ;
+  background: pink;
+  z-index: 9;
+}
+
+.tres {
+  grid-column: 1 / 1;
+  grid-row: 2 / 4;
+  background: green;
+}
+
+
+.seis {
+  grid-column: 1 / 4;
+  grid-row: 5;
+  background: grey;
+}
+
+.siete {
+  grid-column: 1 / 4;
+  grid-row: 6 ;
+  background-color: purple;
+}
+
+</style>  
+                                                                                          
