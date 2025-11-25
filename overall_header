@@ -599,9 +599,15 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     grid-row: 1;
     background: var(--fondo2);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
+  
+.caltiy {
+    display: flex;
+    width: auto;
+    height: auto;
+}  
   
 .dos {
   grid-column: 2 / 3;
