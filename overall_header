@@ -547,21 +547,47 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 			<div id="wrap">
 				<a id="top" name="top" accesskey="t"></a>
 				{JAVASCRIPT}
-                          <div class="tablcal"> 
+   <div class="tablcal"> 
   <div class="fricaly">
     <div class="caltiy">
       <h1>Tablon de anuncios</h1>
     </div>   
     <div class="caltram">
       <b>Trama</b>
-      <p>Hace cincuenta ecadas, una <dfn>bruja y una ninfa</dfn> dieron vida a un <dfn>lugar olvidadao</dfn>. Hoy Calysea es un <dfn>refugio</dfn> donde la magia y los secretos conviven entre <dfn>mar y tierra.</dfn></p></div>  
-    <div class="stacaly">staff</div>  
+      <p>Hace cincuenta ecadas, una <dfn>bruja y una ninfa</dfn> dieron vida a un <dfn>lugar olvidadao</dfn>. Hoy Calysea es un <dfn>refugio</dfn> donde la magia y los secretos conviven entre <dfn>mar y tierra.</dfn></p>
+    </div>  
+    <div class="stacaly">
+      <div class="intros">1</div>
+      <div class="smod">
+ <div class="modal1staff">
+
+  <div class="modal-content">
+    contenido del staff 1
+  </div>
+ </div>
+<div class="modal2staff">
+  <div class="modal-content">
+    contenido del staff 2
+  </div>
+</div>
+<div class="modal3staff">
+  <div class="modal-content">
+    contenido del staff 3
+  </div>
+</div>
+<div class="modal4staff">
+  <div class="modal-content">
+    contenido del modal 4
+  </div>
+</div>
+      </div>
+    </div>  
    </div>
 <div class="dos"><div class="ultitem">aqui van los ultimos temas</div></div>
 <div class="tres">tres</div>
 <div class="seis">seis</div>
 <div class="siete">siete</div>  
-</div>                  
+</div>                 
 				<div id="page-body">
 
 					<div id="{ID_CONTENT_CONTAINER}"{CLASS_CONTENT_CONTAINER}>
@@ -582,6 +608,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 										<div id="main">
 											<div id="main-content">    
 <style>
+/**TABLON DE ANUNCIOS**/ 
 .tablcal {
     margin: 30px 0 75px 0;
     background: transparent;
@@ -591,34 +618,38 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     display: grid;
     grid: auto auto / 3fr 1fr;
     align-content: stretch;
-    grid-template-rows: 35% 0%;
+    grid-template-rows: 90% 100%;
 }
 
 .fricaly {
     grid-column: 1 / 1;
     grid-row: 1;
-    background: var(--fondo2);
+    background: var(--fondo1);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin: 0 0 10px 0;
 }
+
+.oscuro .fricaly {
+    background-color: var(--fondo2);
+}
   
 .caltiy {
     display: flex;
     width: 32%;
-    height: 100%;
+    height: auto;
     align-items: center;
     border-right: 1px solid var(--acento1);
 }
-  
+
 .caltiy::before {
     content: '';
-    width: 10%;
-    height: 287px;
-    margin: 2% 0 0 -1%;
+    width: 10vw;
+    height: 29vh;
+    margin: 0% 0 0 -1%;
     background-image: var(--tabimg1);
     display: flex;
     align-items: center;
@@ -632,36 +663,44 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     font-family: var(--titulo);
     text-transform: uppercase;
     text-align: center;
-    width: 29vw;
-    line-height: 1em;
-    margin: 0 0 0 21%;
-    letter-spacing: 6px;
+    width: 18vw;
+    line-height: 1.2em;
+    margin: 0 0 0 18%;
+    letter-spacing: 3px;
 }
   
 .caltram {
-    width: 40%;
-    height: 100%;
+    width: 24vw;
+    height: auto;
     align-items: center;
     overflow: hidden;
     justify-self: center;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 10px;
     border-right: 1px solid var(--acento1);
+    margin: 10px;
 }
   
 .caltram b {
-    float: inline-start;
-    margin: 80px 20px 0 0px;
+    float: left;
+    margin: 0px 20px 0 0px;
     background: var(--acento1);
     padding: 10px;
     line-height: 1em;
     text-transform: uppercase;
     border-radius: 5px;
     letter-spacing: 3px;
+    color: var(--texto1);
+}
+
+.oscuro .celtram b {
+    color: var(--texto)
 }
   
 .caltram p {
-    margin: 78px 0 0 0;
-}  
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
   
 .dos {
   grid-column: 2 / 3;
