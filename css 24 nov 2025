@@ -10,7 +10,8 @@
     --fondo2: #cbccd6;
     --shape-color: #ebf1f6;
   /*texto*/
-    --texto: #0e0e0e;
+    --texto: #1d1c1c;
+    --texto1: #ebf1f6;
   /*transparencias*/
     --tfon1: #281f1f87;
     --tfon2: #212123;
@@ -1383,3 +1384,4 @@ display: none;
 }
 
 @media (min-width: 2560px) and (min-height: 794px) {}
+
