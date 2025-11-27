@@ -211,10 +211,12 @@ body.oscuro {
     border-bottom-right-radius: 10px;
     padding: 10px;
     font: 400 1em var(--tt2);
+    box-shadow: 0px 0px 15px var(--fondo2);
 }
 
 .oscuro .calnav {
       background-color: var(--fondo2)!important;
+      box-shadow: 0px 0px 15px var(--fondo1);
 }
 
 .calything {
