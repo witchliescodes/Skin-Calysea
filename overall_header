@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
   <script src="https://kit.fontawesome.com/a96fcf6740.js" crossorigin="anonymous"></script>  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
     <script>
         function selectCode(e) {
                 var doc = document
@@ -565,14 +566,33 @@ document.getElementById("scrollDown").addEventListener("click", function () {
         <p>Conoce al staff, si tienes alguna duda por favor preguntanos, estamos disponibles por el subforo de <a href="/">dudas y sugerencias</a> o bien, a través de neustra mensajería privada.</p>
      </div>
       </div>
-      <div class="smod">
-        <div class="cnt-but-st d-flex gap-2">
-  <button type="button" class="staff con-tooltip"  data-bs-toggle="modal"  data-bs-target="#staff1"  data-bs-title="Ver Administrador"></button>
-  <button type="button" class="staff con-tooltip"  data-bs-toggle="modal"  data-bs-target="#staff2"  data-bs-title="Ver Moderador"></button>
-  <button type="button" class="staff con-tooltip"  data-bs-toggle="modal"  data-bs-target="#staff3"  data-bs-title="Ver Narrador"></button>
-  <button type="button" class="staff con-tooltip"  data-bs-toggle="modal"  data-bs-target="#staff4"  data-bs-title="Ver Diseñador"></button>
-      </div>
-<div class="modal fade" id="staff1" tabindex="-1" aria-hidden="true">
+<div class="smod">
+  <div class="cnt-but-st d-flex gap-2">
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff1" 
+            data-bs-title="Ver Administrador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff2" 
+            data-bs-title="Ver Moderador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff3" 
+            data-bs-title="Ver Narrador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff4" 
+            data-bs-title="Ver Diseñador">
+    </button>
+  </div>
+  <div class="modal fade" id="staff1" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -618,15 +638,16 @@ document.getElementById("scrollDown").addEventListener("click", function () {
       <div class="modal-body">Información del Staff 4...</div>
     </div>
   </div>
-</div>
-      </div>
+</div>      
+</div> 
+
     </div>  
    </div>
 <div class="dos"><div class="ultitem">aqui van los ultimos temas</div></div>
 <div class="tres">tres</div>
 <div class="seis">seis</div>
 <div class="siete">siete</div>  
-</div>                   
+</div>                  
 				<div id="page-body">
 
 					<div id="{ID_CONTENT_CONTAINER}"{CLASS_CONTENT_CONTAINER}>
@@ -648,8 +669,8 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 	
                                                                                   
                                                                                   <div id="main-content">    
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>                                                                                    
+                                                                              
+                                                                                
 <style>
 /**TABLON DE ANUNCIOS**/ 
 .tablcal {
@@ -702,18 +723,20 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 }
   
 .caltiy h1 {
-    font-size: 3em;
     font-family: var(--titulo);
     text-transform: uppercase;
     text-align: center;
-    width: 18vw;
     line-height: 1.2em;
-    margin: 0 0 0 18%;
     letter-spacing: 3px;
+    font-size: calc(1rem + 1vw) !important;
+    width: calc(100% - 30px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    word-wrap: break-word;
 }
   
 .caltram {
-    width: 24vw;
+    width: 20vw;
     height: auto;
     align-items: center;
     overflow: hidden;
@@ -816,14 +839,44 @@ button[data-bs-target="#staff1"] { background-image: url('https://images2.imgbox
 button[data-bs-target="#staff2"] { background-image: url('https://images2.imgbox.com/3c/18/g3EWoFjd_o.png'); }
 button[data-bs-target="#staff3"] { background-image: url('URL_IMAGEN_STAFF_1'); }
 button[data-bs-target="#staff4"] { background-image: url('URL_IMAGEN_STAFF_2'); }
+  
 
-  .modal {
-    z-index: 999999999 !important; /* Fuerza bruta para que salga al frente */
+/* 1. MATA AL FANTASMA: Si no tiene la clase .show, ¡DESAPARECE! */
+/* Usamos div.modal para ganar especificidad sobre el CSS base */
+div.modal:not(.show) {
+    display: none !important;       /* Quítalo del flujo visual */
+    visibility: hidden !important;  /* Ocúltalo */
+    pointer-events: none !important; /* IMPORTANTE: Deja pasar los clicks a lo de atrás */
+    z-index: -1 !important;         /* Envíalo al inframundo por si acaso */
 }
+
+/* 2. RESUCITA AL MODAL: Cuando se abre (tiene .show), tráelo al frente */
+div.modal.show {
+    display: block !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    
+    /* Asegurar que flote sobre el foro */
+    z-index: 99999 !important; 
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro semitransparente manual */
+}  
+  
+/* === CORRECCIÓN FINAL DEL FONDO OSCURO === */
+
+/* 1. ELIMINAR el fondo separado que te está dando problemas */
+/* Le decimos que desaparezca para que deje de tapar tu ventana */
 .modal-backdrop {
-    z-index: 999 !important; /* El fondo oscuro justo detrás */
+    display: none !important;
+    z-index: -5 !important;
+    opacity: 0 !important;
 }
 
+/* 2. CONVERTIR al propio contenedor del modal en el fondo oscuro */
+/* Así nos aseguramos de que el fondo SIEMPRE esté detrás del contenido */
+.modal.show {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Negro al 50% */
+}  
 .dos {
   grid-column: 2 / 3;
   grid-row: 1 / 4 ;
