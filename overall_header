@@ -665,11 +665,13 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     justify-content: space-between;
     border-radius: 10px;
     margin: 0 0 10px 0;
-    box-sizing: border-box;
     background-image: var(--floress);
+    box-sizing: border-box;
     background-size: contain;
     position: relative;
+    z-index: 1; 
 }
+  
 
 .incalt {
     width: calc(50vw - 10vw);
@@ -832,9 +834,9 @@ transform: rotate(10deg);
 .tres {
   grid-column: 1 / 2;
   grid-row: 3;
-    background: var(--fondo1);
-        border-radius: 10px;
-        box-sizing: border-box;
+  background: var(--fondo1);
+  box-sizing: border-box;
+  border-top: 1px solid var(--acento1);
 }
 
 
