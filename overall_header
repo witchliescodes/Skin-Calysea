@@ -555,7 +555,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     <div class="linkscaly">
       <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Guidebook"><i class="bi bi-book-fill"></i></a>
       <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Registro de fisicos"><i class="bi bi-archive-fill"></i></a>
-      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Reserva de pbs"><i class="bi bi-crosshair"></i></a>
+      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Reserva de pbs"><i class="bi bi-people"></i></a>
       <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Tumblr"><i class="ai-tumblr-fill"></i></a>
     </div>
    </div>
