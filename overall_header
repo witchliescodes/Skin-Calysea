@@ -728,6 +728,7 @@ transform: rotate(10deg);
     height: 32vh;
     background-size: contain;
     z-index: 99;
+      margin: 0 2% 0 4%;
 }
 
 
@@ -841,6 +842,10 @@ transform: rotate(10deg);
     padding: 10px;
     border-radius: 5px;
 }
+  
+.oscuro .tabtram {
+      background: var(--fondo1);
+  } 
   
 .tres {
   grid-column: 1 / 2;
