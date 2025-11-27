@@ -22,7 +22,7 @@
   /*imagenes*/
   --dirbim: url('https://images2.imgbox.com/0f/86/cLIFwR5l_o.png');
   --ppers: url('https://i.ibb.co/5xh9PSqD/Sirenita-oficialsiosi.png');
-  --nereida: url('https://images2.imgbox.com/22/5e/UZ5nY9Sk_o.png');
+  --nereida: url('https://i.ibb.co/4RmqwB2H/Nereida-PNG.png');
   --mono1: url('https://images2.imgbox.com/c8/b9/Rf1ft6PA_o.png');
   --mono2: url('https://images2.imgbox.com/e2/b3/SANqvD9o_o.png');
   --mono3: url('https://images2.imgbox.com/40/5d/piO1DqbS_o.png');
@@ -30,6 +30,8 @@
   --mono5: url('https://images2.imgbox.com/05/41/G0I4kIn6_o.png');
   --mono6: url('https://images2.imgbox.com/b2/30/jirUBIRa_o.png');
   --tabimg1: url('https://images2.imgbox.com/6a/f2/L9WMiIeD_o.png');
+  --tabstimg: url('https://images2.imgbox.com/01/a1/YcWfnt9b_o.jpg');
+  --floress: url('https://images2.imgbox.com/38/3b/m8LSaK1y_o.png');
   /*Fuentes*/
     --titulo: 'Garges';
     --subtle: 'Redney';
@@ -59,7 +61,7 @@
   /*imagenes*/
   --oscbim: url('https://images2.imgbox.com/4a/38/fHxGhwGO_o.png');
   --ppers: url('https://images2.imgbox.com/63/71/r0Yg6l4r_o.png');
-  --cirse: url('https://images2.imgbox.com/c0/6b/DEsc9dlt_o.png');
+  --cirse: url('https://images2.imgbox.com/6c/4d/UQgvBUfB_o.png');
   --mono1: url('https://images2.imgbox.com/e3/ce/RJkEBWUO_o.png');
   --mono2: url('https://images2.imgbox.com/6e/be/EV4XWrxf_o.png');
   --mono3: url('https://images2.imgbox.com/3b/f2/WMRsjlr9_o.png');
@@ -67,6 +69,8 @@
   --mono5: url('https://images2.imgbox.com/3f/bb/JJ0DHUoo_o.png');
   --mono6: url('https://images2.imgbox.com/f2/57/A2lg3lPg_o.png');
   --tabimg1: url('https://images2.imgbox.com/c0/5c/NYL0TcUi_o.png');
+  --tabstimg: url('https://images2.imgbox.com/2d/12/huIckIfI_o.jpg');
+  --floress: url('https://images2.imgbox.com/38/3b/m8LSaK1y_o.png');
     /*Fuentes*/
     --titulo: 'Garges';
     --subtle: 'Redney';
@@ -172,7 +176,7 @@ body.oscuro {
     min-width: -webkit-fill-available;
     width: -webkit-fill-available;
     padding: 30px;
-    z-index: 9999 !important;
+    z-index: 9 !important;
     position: relative;
     background: var(--fondo2);
     text-align: justify;
@@ -193,7 +197,7 @@ body.oscuro {
 
 .calnav {
     width: -webkit-fill-available;
-    z-index: 999999 !important;
+    z-index: 999 !important;
     grid-column: 1 / 4;
     grid-row: 2;
     position: sticky;
