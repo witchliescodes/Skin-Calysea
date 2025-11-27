@@ -568,8 +568,8 @@ document.getElementById("scrollDown").addEventListener("click", function () {
      <button onclick="window.open('/', '_blank')" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Mapa de Calysea" class="mapita"><i class="bi bi-geo-alt-fill"></i></button>
      </div>
      <div class="tabtram">
-      <h2>Trama</h2>
-      <p>Trama aquí</p>
+      <h2>Trama <i class="bi bi-feather"></i></h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
      </div>
      <div class="tabanun">
       <h2>Anuncios</h2>
@@ -724,11 +724,9 @@ transform: rotate(10deg);
 
 .timcal {
     background-image: var(--tabstimg);
-    width: 16vw;
-    height: 40vh;
+    width: 13vw;
+    height: 32vh;
     background-size: contain;
-    position: absolute;
-    margin: 3% 0 0 82%;
     z-index: 99;
 }
 
@@ -740,7 +738,7 @@ transform: rotate(10deg);
     z-index: 9;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -830,7 +828,20 @@ transform: rotate(10deg);
     border-radius: 10px;
     border: none;
 }
-
+  
+.tabtram {
+    width: 40vw;
+    height: 34vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 20px 20px;
+    background: var(--fondo2);
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
 .tres {
   grid-column: 1 / 2;
   grid-row: 3;
