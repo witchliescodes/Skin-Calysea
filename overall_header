@@ -548,106 +548,27 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 			<div id="wrap">
 				<a id="top" name="top" accesskey="t"></a>
 				{JAVASCRIPT}
-         <div class="tablcal"> 
-  <div class="fricaly">
-    <div class="caltiy">
-      <h1>Tablon de anuncios</h1>
-    </div>   
-    <div class="caltram">
-      <b>Trama</b>
-      <p>Hace cincuenta ecadas, una <dfn>bruja y una ninfa</dfn> dieron vida a un <dfn>lugar olvidadao</dfn>. Hoy Calysea es un <dfn>refugio</dfn> donde la magia y los secretos conviven entre <dfn>mar y tierra.</dfn></p>
-    </div>  
-    <div class="stacaly">
-      <div class="intros">
-        <div class="imgstatab">
-        </div>
-        <div class="insta">
-        <h1>Staff</h1>
-        <p>Conoce al staff, si tienes alguna duda por favor preguntanos, estamos disponibles por el subforo de <a href="/">dudas y sugerencias</a> o bien, a través de neustra mensajería privada.</p>
-     </div>
-      </div>
-<div class="smod">
-  <div class="cnt-but-st d-flex gap-2">
-    <button type="button" class="staff con-tooltip" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staff1" 
-            data-bs-title="Ver Administrador">
-    </button>
-
-    <button type="button" class="staff con-tooltip" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staff2" 
-            data-bs-title="Ver Moderador">
-    </button>
-
-    <button type="button" class="staff con-tooltip" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staff3" 
-            data-bs-title="Ver Narrador">
-    </button>
-
-    <button type="button" class="staff con-tooltip" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staff4" 
-            data-bs-title="Ver Diseñador">
-    </button>
-  </div>
-  <div class="modal fade" id="staff1" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Administrador (Staff 1)</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">Información del Staff 1...</div>
+   <div class="tablcal"> 
+    <div class="fricaly">
+   <div class="incalt">
+    <h1>Bienvenidos a Calysea</h1>
+    <div class="linkscaly">
+      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Guidebook"><i class="bi bi-book-fill"></i></a>
+      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Registro de fisicos"><i class="bi bi-archive-fill"></i></a>
+      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Reserva de pbs"><i class="bi bi-crosshair"></i></a>
+      <a href="/" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Tumblr"><i class="ai-tumblr-fill"></i></a>
     </div>
-  </div>
-</div>
-
-<div class="modal fade" id="staff2" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Moderador (Staff 2)</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">Información del Staff 2...</div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="staff3" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Narrador (Staff 3)</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">Información del Staff 3...</div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="staff4" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Diseñador (Staff 4)</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">Información del Staff 4...</div>
-    </div>
-  </div>
-</div>      
-</div> 
-
-    </div>  
    </div>
-<div class="dos"><div class="ultitem">aqui van los ultimos temas</div></div>
+   <div class="timcal"></div>
+    </div>  
+
+<div class="dos"> 
+     dasdasdasd
+</div>
 <div class="tres">tres</div>
-<div class="seis">seis</div>
-<div class="siete">siete</div>  
-</div>                  
+<div class="cuatro"><div class="ultitem">aqui van los ultimos temas</div></div>
+<div class="cinco">cinco</div>  
+   </div>          
 				<div id="page-body">
 
 					<div id="{ID_CONTENT_CONTAINER}"{CLASS_CONTENT_CONTAINER}>
@@ -679,229 +600,116 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     border-radius: 5px;
     width: -webkit-fill-available;
     height: auto;
-    display: grid;
-    grid: auto auto / 3fr 1fr;
-    align-content: stretch;
-    /**grid-template-rows: 30% 70%;**/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  align-content: stretch;    
+  box-sizing: border-box;
+}
+
+.oscuro .fricaly, .oscuro .dos, .oscuro .tres, .oscruro .tres, .oscuro .cuatro, .oscuro .cinco {
+    background-color: var(--fondo2);
 }
 
 .fricaly {
-    grid-column: 1 / 1;
+    grid-column: 1 / 3;
     grid-row: 1;
     background: var(--fondo1);
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
     margin: 0 0 10px 0;
-}
-
-.oscuro .fricaly {
-    background-color: var(--fondo2);
-}
-  
-.caltiy {
-    display: flex;
-    width: 32%;
-    height: auto;
-    align-items: center;
-    border-right: 1px solid var(--acento1);
-}
-
-.caltiy::before {
-    content: '';
-    width: 10vw;
-    height: 29vh;
-    margin: 0% 0 0 -1%;
-    background-image: var(--tabimg1);
-    display: flex;
-    align-items: center;
-    background-position: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: var(--floress);
     background-size: contain;
-    position: absolute;
 }
-  
-.caltiy h1 {
+
+.incalt {
+    width: calc(50vw - 10vw);
+    padding: 60px clamp(20px, 5%, 80px);
+    background-color: transparent;
+}
+
+.incalt h1 {
     font-family: var(--titulo);
     text-transform: uppercase;
     text-align: center;
     line-height: 1.2em;
     letter-spacing: 3px;
-    font-size: calc(1rem + 1vw) !important;
-    width: calc(100% - 30px) !important;
+    font-size: calc(1.2rem + 1vw) !important;
     margin-left: auto !important;
     margin-right: auto !important;
     word-wrap: break-word;
-}
-  
-.caltram {
-    width: 20vw;
-    height: auto;
-    align-items: center;
-    overflow: hidden;
-    justify-self: center;
-    padding: 0 20px 0 10px;
-    border-right: 1px solid var(--acento1);
-    margin: 10px;
-}
-  
-.caltram b {
-    float: left;
-    margin: 0px 20px 0 0px;
-    background: var(--acento1);
-    padding: 10px;
-    line-height: 1em;
-    text-transform: uppercase;
-    border-radius: 5px;
-    letter-spacing: 3px;
-    color: var(--texto1);
+    margin-bottom: 5%;
 }
 
-.oscuro .celtram b {
-    color: var(--texto)
-}
-  
-.caltram p {
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-
-.stacaly {
+.linkscaly {
+    width: -webkit-fill-available;
     display: flex;
-    width: 24vw;
-    height: auto;
-    margin: 0 10px 0 10px;
     align-items: center;
     justify-content: space-between;
-}
-
-.intros {
-    width: 10vw;
     height: auto;
 }
 
-.imgstatab {
-    background-image: var(--tabstimg);
-    width: 10vw;
-    height: 4vw;
-    background-position: 55% 22%;
-    background-size: cover;
+.linkscaly a {
+    width: 2vw;
+    height: 4vh;
+    background: var(--acento1);
     border-radius: 10px;
-    margin: 10px 0 0 0;
-}
-
-.insta p {
-    overflow: auto;
-    height: 10vh;
-    font-size: 1em;
-    font-family: var(--tt2);
-    line-height: 1.5em;
-}
-
-.smod {
-    flex-flow: column;
+    cursor: pointer;
+    transition: all 300ms;
     display: flex;
-    flex-wrap: wrap;
-    height: -webkit-fill-available;
     align-items: center;
     justify-content: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--acento4);
 }
 
-.cnt-but-st {
-    align-items: center;
-    flex-wrap: wrap;
-    width: -webkit-fill-available;
+
+.linkscaly a:hover {
+background-color: var(--acento2);
+color: var(--acento5);
+transform: rotate(10deg);
 }
 
-/**MODALES STAFF**/
 
-.staff {
-    width: 80px;
-    height: 80px;
-    border-radius: 10PX;
-    border: 2px solid var(--acento1);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    transition: transform 0.2s;
-    margin: 10px;
-}
 
-.staff:hover {
-  transform: scale(1.1);
-  border-color: var(--acento3); 
-}
-
-button[data-bs-target="#staff1"] { background-image: url('https://images2.imgbox.com/53/9d/E3fxZAw1_o.png'); }
-button[data-bs-target="#staff2"] { background-image: url('https://images2.imgbox.com/3c/18/g3EWoFjd_o.png'); }
-button[data-bs-target="#staff3"] { background-image: url('URL_IMAGEN_STAFF_1'); }
-button[data-bs-target="#staff4"] { background-image: url('URL_IMAGEN_STAFF_2'); }
-  
-
-/* 1. MATA AL FANTASMA: Si no tiene la clase .show, ¡DESAPARECE! */
-/* Usamos div.modal para ganar especificidad sobre el CSS base */
-div.modal:not(.show) {
-    display: none !important;       /* Quítalo del flujo visual */
-    visibility: hidden !important;  /* Ocúltalo */
-    pointer-events: none !important; /* IMPORTANTE: Deja pasar los clicks a lo de atrás */
-    z-index: -1 !important;         /* Envíalo al inframundo por si acaso */
-}
-
-/* 2. RESUCITA AL MODAL: Cuando se abre (tiene .show), tráelo al frente */
-div.modal.show {
-    display: block !important;
-    visibility: visible !important;
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    
-    /* Asegurar que flote sobre el foro */
-    z-index: 99999 !important; 
-    background-color: rgba(0,0,0,0.5); /* Fondo oscuro semitransparente manual */
-}  
-  
-/* === CORRECCIÓN FINAL DEL FONDO OSCURO === */
-
-/* 1. ELIMINAR el fondo separado que te está dando problemas */
-/* Le decimos que desaparezca para que deje de tapar tu ventana */
-.modal-backdrop {
-    display: none !important;
-    z-index: -5 !important;
-    opacity: 0 !important;
-}
-
-/* 2. CONVERTIR al propio contenedor del modal en el fondo oscuro */
-/* Así nos aseguramos de que el fondo SIEMPRE esté detrás del contenido */
-.modal.show {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Negro al 50% */
-}  
 .dos {
-  grid-column: 2 / 3;
-  grid-row: 1 / 4 ;
-  background: pink;
+  grid-column: 1 / 3 ;
+  grid-row: 2 ;
+    background: var(--fondo1);
   z-index: 9;
+      border-radius: 10px;
 }
 
 .tres {
-  grid-column: 1 / 1;
-  grid-row: 2 / 4;
-  background: green;
+  grid-column: 1 / 2;
+  grid-row: 3;
+    background: var(--fondo1);
+        border-radius: 10px;
+        box-sizing: border-box;
 }
 
 
-.seis {
-  grid-column: 1 / 4;
-  grid-row: 5;
-  background: grey;
+.cuatro {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    background: var(--fondo1);
+    margin: 10px 0 10px 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
 }
 
-.siete {
-  grid-column: 1 / 4;
-  grid-row: 6 ;
-  background-color: purple;
-}
 
+.cinco {
+  grid-column: 1 / 3;
+  grid-row: 4 ;
+    background: var(--fondo1);
+  margin: 10px 0;
+      border-radius: 10px;
+      box-sizing: border-box;
+}
 </style>  
                                                                                           
