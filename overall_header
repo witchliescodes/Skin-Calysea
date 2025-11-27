@@ -548,7 +548,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 			<div id="wrap">
 				<a id="top" name="top" accesskey="t"></a>
 				{JAVASCRIPT}
-   <div class="tablcal"> 
+  <div class="tablcal"> 
     <div class="fricaly">
    <div class="incalt">
     <h1>Bienvenidos a Calysea</h1>
@@ -563,12 +563,56 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     </div>  
 
 <div class="dos"> 
-     dasdasdasd
+     <div class="ftabd">
+     <div class="imtdos"></div>
+     <button onclick="window.open('/', '_blank')" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Mapa de Calysea" class="mapita"><i class="bi bi-geo-alt-fill"></i></button>
+     </div>
+     <div class="tabtram">
+      <h2>Trama</h2>
+      <p>Trama aquí</p>
+     </div>
+     <div class="tabanun">
+      <h2>Anuncios</h2>
+      <div class="anlist">
+        listado de anuncios
+      </div>
+     </div>
+     <div class="tabstaf">
+      <h2>Staff</h2>
+      <p>>Conoce al staff, si tienes alguna duda por favor preguntanos, estamos disponibles por el subforo de <a href="/">dudas y sugerencias</a> o bien, a través de neustra mensajería privada.</p>
+<div class="smod">
+  <div class="cnt-but-st d-flex gap-2">
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff1" 
+            data-bs-title="Ver Administrador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff2" 
+            data-bs-title="Ver Moderador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff3" 
+            data-bs-title="Ver Narrador">
+    </button>
+
+    <button type="button" class="staff con-tooltip" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staff4" 
+            data-bs-title="Ver Diseñador">
+    </button>
+  </div>
+</div>
+    </div>
 </div>
 <div class="tres">tres</div>
 <div class="cuatro"><div class="ultitem">aqui van los ultimos temas</div></div>
 <div class="cinco">cinco</div>  
-   </div>          
+   </div>      
 				<div id="page-body">
 
 					<div id="{ID_CONTENT_CONTAINER}"{CLASS_CONTENT_CONTAINER}>
@@ -604,6 +648,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
   grid-template-columns: repeat(2, 1fr); 
   align-content: stretch;    
   box-sizing: border-box;
+  position: relative;
 }
 
 .oscuro .fricaly, .oscuro .dos, .oscuro .tres, .oscruro .tres, .oscuro .cuatro, .oscuro .cinco {
@@ -616,13 +661,13 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     background: var(--fondo1);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     border-radius: 10px;
     margin: 0 0 10px 0;
     box-sizing: border-box;
-    overflow: hidden;
     background-image: var(--floress);
     background-size: contain;
+    position: relative;
 }
 
 .incalt {
@@ -653,20 +698,19 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 }
 
 .linkscaly a {
-    width: 2vw;
-    height: 4vh;
-    background: var(--acento1);
+    width: 40px;
+    height: 40px;
+    background: var(--grad1);
     border-radius: 10px;
     cursor: pointer;
     transition: all 300ms;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
+    font-size: calc(1.5rem - 0.5em);
     text-decoration: none;
     color: var(--acento4);
 }
-
 
 .linkscaly a:hover {
 background-color: var(--acento2);
@@ -674,6 +718,16 @@ color: var(--acento5);
 transform: rotate(10deg);
 }
 
+
+.timcal {
+    background-image: var(--tabstimg);
+    width: 16vw;
+    height: 40vh;
+    background-size: contain;
+    position: absolute;
+    margin: 3% 0 0 82%;
+    z-index: 99;
+}
 
 
 .dos {
