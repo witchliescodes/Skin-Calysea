@@ -30,8 +30,9 @@
   --mono5: url('https://images2.imgbox.com/05/41/G0I4kIn6_o.png');
   --mono6: url('https://images2.imgbox.com/b2/30/jirUBIRa_o.png');
   --tabimg1: url('https://images2.imgbox.com/6a/f2/L9WMiIeD_o.png');
-  --tabstimg: url('https://images2.imgbox.com/01/a1/YcWfnt9b_o.jpg');
+  --tabstimg: url('https://images2.imgbox.com/cd/1d/YvItTt7x_o.png');
   --floress: url('https://images2.imgbox.com/38/3b/m8LSaK1y_o.png');
+  --tramimg: url('https://images2.imgbox.com/94/9d/RP9bi8vR_o.png');
   /*Fuentes*/
     --titulo: 'Garges';
     --subtle: 'Redney';
@@ -69,15 +70,15 @@
   --mono5: url('https://images2.imgbox.com/3f/bb/JJ0DHUoo_o.png');
   --mono6: url('https://images2.imgbox.com/f2/57/A2lg3lPg_o.png');
   --tabimg1: url('https://images2.imgbox.com/c0/5c/NYL0TcUi_o.png');
-  --tabstimg: url('https://images2.imgbox.com/2d/12/huIckIfI_o.jpg');
+  --tabstimg: url('https://images2.imgbox.com/92/88/4zurvGMr_o.png');
   --floress: url('https://images2.imgbox.com/38/3b/m8LSaK1y_o.png');
+--tramimg: url('https://images2.imgbox.com/94/9d/RP9bi8vR_o.png');
     /*Fuentes*/
     --titulo: 'Garges';
     --subtle: 'Redney';
     --tt1: 'Roboto';
     --tt2: 'Comfortaa';
 }
-
 /*FUENTES, SRCOLL Y TOOLTIP*/
 
 
@@ -307,9 +308,9 @@ body.oscuro {
     --bs-dropdown-header-color: #6c757d;
     --bs-dropdown-header-padding-x: 1rem;
     --bs-dropdown-header-padding-y: 0.5rem;
+  display: none;
     position: absolute;
     z-index: var(--bs-dropdown-zindex);
-    display: none;
     min-width: var(--bs-dropdown-min-width);
     padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
     margin: 0;
