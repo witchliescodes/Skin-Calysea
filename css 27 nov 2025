@@ -240,11 +240,13 @@ body.oscuro {
     border: 10px solid var(--fondo1);
     border-radius: 10px;
     background-color: var(--fondo1);
+    box-shadow: 0 4px 6px -1px var(--fondo2);
 }
 
 .oscuro .avac  {
       border: 10px solid var(--fondo2);
       background-color: var(--fondo2);
+      box-shadow: 0 4px 6px -1px var(--fondo1);
 }
 
 .avac::after, .avac::before {
