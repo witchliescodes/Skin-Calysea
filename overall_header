@@ -695,7 +695,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     text-shadow: -1px -1px 0 var(--acento1), 1px -1px 0 var(--acento1), -1px 1px 0 var(--acento1), 1px 1px 0 var(--acento1);
 }
   
-.oscuro. incalt h1 { 
+.oscuro .incalt h1 { 
     color: var(--fondo2);
     text-shadow: -1px -1px 0 var(--acento2), 1px -1px 0 var(--acento2), -1px 1px 0 var(--acento2), 1px 1px 0 var(--acento2);
 }
