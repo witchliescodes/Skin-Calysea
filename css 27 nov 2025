@@ -615,10 +615,12 @@ display: inline-block;
     z-index: 999998 !important;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 15px 15px 15px -10px var(--fondo2);
 }
 
 .oscuro #fa_toolbar #fa_right #notif_list {
     background-color: var(--fondo2);
+    box-shadow: 15px 15px 15px -10px var(--fondo1);
 }
 
 #fa_toolbar #fa_right #notif_list li {
