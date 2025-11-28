@@ -568,8 +568,11 @@ document.getElementById("scrollDown").addEventListener("click", function () {
      <button onclick="window.open('/', '_blank')" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Mapa de Calysea" class="mapita"><i class="bi bi-geo-alt-fill"></i></button>
      </div>
      <div class="tabtram">
+      <div class="utramu">
       <h2>Trama <i class="bi bi-feather"></i></h2>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="taimg"></div>
      </div>
      <div class="tabanun">
       <h2>Anuncios</h2>
@@ -839,11 +842,9 @@ transform: rotate(10deg);
 }
   
 .tabtram {
-    width: 40vw;
-    height: 34vh;
+    width: 54vw;
+    height: -webkit-fill-available;
     display: flex;
-    align-items: center;
-    flex-flow: column;
     margin: 20px 20px;
     background: var(--fondo2);
     overflow: hidden;
@@ -854,6 +855,45 @@ transform: rotate(10deg);
 .oscuro .tabtram {
       background: var(--fondo1);
   } 
+  
+.utramu {
+    width: 20vw;
+    height: -webkit-fill-available;
+}
+  
+.tabtram h2 {
+    margin: 0 0px 10px 0px;
+    line-height: 1.5em;
+    background: var(--acento2);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: var(--subtle);
+    font-weight: 800;
+    letter-spacing: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+  
+.tabtram p {
+    width: 20vw;
+    height: 27vh;
+    overflow: auto;
+    padding: 0 10px 0 0px;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+}
+  
+.taimg {
+    width: 8vw;
+    margin: 0 0px 0 10px;
+    height: -webkit-fill-available;
+    background: var(--acento2);
+    border-radius: 10px;
+}
   
 .tres {
   grid-column: 1 / 2;
