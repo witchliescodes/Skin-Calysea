@@ -680,7 +680,7 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 }
 
 .incalt h1 {
-    font-family: var(--titulo);
+    font-family: var(--subtle);
     text-transform: uppercase;
     text-align: center;
     line-height: 1.2em;
@@ -693,6 +693,11 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     font-weight: 900;
     color: var(--texto1);
     text-shadow: -1px -1px 0 var(--acento1), 1px -1px 0 var(--acento1), -1px 1px 0 var(--acento1), 1px 1px 0 var(--acento1);
+}
+  
+.oscuro. incalt h1 { 
+    color: var(--fondo2);
+    text-shadow: -1px -1px 0 var(--acento2), 1px -1px 0 var(--acento2), -1px 1px 0 var(--acento2), 1px 1px 0 var(--acento2);
 }
 
 .linkscaly {
