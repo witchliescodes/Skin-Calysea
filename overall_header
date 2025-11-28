@@ -685,11 +685,14 @@ document.getElementById("scrollDown").addEventListener("click", function () {
     text-align: center;
     line-height: 1.2em;
     letter-spacing: 3px;
-    font-size: calc(1.2rem + 1vw) !important;
+    font-size: calc(1.5rem + 1vw) !important;
     margin-left: auto !important;
     margin-right: auto !important;
     word-wrap: break-word;
     margin-bottom: 5%;
+    font-weight: 900;
+    color: var(--texto1);
+    text-shadow: -1px -1px 0 var(--acento1), 1px -1px 0 var(--acento1), -1px 1px 0 var(--acento1), 1px 1px 0 var(--acento1);
 }
 
 .linkscaly {
