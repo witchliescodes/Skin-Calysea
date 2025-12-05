@@ -1300,6 +1300,7 @@ display: none;
 .incalt { width: calc(65vw - 10vw); }  
 .imtdos { width: 15vw; height: 54vh; }  
 .timcal { width: 17vw; height: 52vh; }  
+.tabtram { width: 110vw; }  
 }
 
 @media (min-width: 1360px) and (max-height: 790px) {
