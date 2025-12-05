@@ -846,15 +846,11 @@ transform: rotate(10deg);
     height: -webkit-fill-available;
     display: flex;
     margin: 20px 20px;
-    background: var(--fondo2);
+    background: transparent;
     overflow: hidden;
     padding: 10px;
     border-radius: 5px;
 }
-  
-.oscuro .tabtram {
-      background: var(--fondo1);
-  } 
   
 .utramu {
     width: 20vw;
@@ -863,15 +859,14 @@ transform: rotate(10deg);
   
 .tabtram h2 {
     margin: 0 0px 10px 0px;
-    line-height: 1.5em;
+    line-height: 0.5em;
     background: var(--acento2);
     padding: 10px;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: 2em;
     text-transform: uppercase;
-    font-family: var(--subtle);
+    font-family: var(--titulo);
     font-weight: 800;
-    letter-spacing: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
