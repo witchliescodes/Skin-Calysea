@@ -754,7 +754,6 @@ transform: rotate(10deg);
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .ftabd {
@@ -891,11 +890,12 @@ transform: rotate(10deg);
 }
   
 .tres {
-  grid-column: 1 / 2;
-  grid-row: 3;
-  background: var(--fondo1);
-  box-sizing: border-box;
-  border-top: 1px solid var(--acento1);
+    grid-column: 1 / 2;
+    grid-row: 3;
+    background: var(--fondo1);
+    margin: 10px 0 10px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -903,9 +903,11 @@ transform: rotate(10deg);
     grid-column: 2 / 3;
     grid-row: 3;
     background: var(--fondo1);
-    margin: 10px 0 10px 10px;
-        border-radius: 10px;
-        box-sizing: border-box;
+    margin: 0px 0 10px 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid var(--acento1);
 }
 
 
